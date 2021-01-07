@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export class Header extends Component {
   render() {
-    const imgUrl = (new Date()).getHours() >= 6 && (new Date()).getHours() < 5 ? '../img/alco/101220_1x1M.jpg' : '../img/alco/101220_1x1M_malam.jpg';
+    const imgUrl = (new Date()).getHours() >= 6 && (new Date()).getHours() < 5 ? 'img/alco/101220_1x1M.jpg' : 'img/alco/101220_1x1M_malam.jpg';
     return (
       <header id="header">
         <div className="intro" style={{background: `url(${imgUrl}) center center no-repeat`, backgroundSize: 'cover'}}>

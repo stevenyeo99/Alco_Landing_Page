@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24e31a003cc8c3c309f5b086e9f49840",
+    "revision": "15032c79ff24c100956c79b672fad17f",
     "url": "/Alco_Landing_Page/index.html"
   },
   {
-    "revision": "15bf820c57089ddc56c3",
+    "revision": "10fc05707774e04fb0e1",
     "url": "/Alco_Landing_Page/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Alco_Landing_Page/static/js/2.7344ce71.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "15bf820c57089ddc56c3",
-    "url": "/Alco_Landing_Page/static/js/main.62a77462.chunk.js"
+    "revision": "10fc05707774e04fb0e1",
+    "url": "/Alco_Landing_Page/static/js/main.f89405a2.chunk.js"
   },
   {
     "revision": "afdd20d62583bf3d44b4",

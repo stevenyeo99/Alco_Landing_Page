@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Alco_Landing_Page/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/Alco_Landing_Page/static/js/main.f89405a2.chunk.js",
-    "main.js.map": "/Alco_Landing_Page/static/js/main.f89405a2.chunk.js.map",
+    "main.js": "/Alco_Landing_Page/static/js/main.0efce181.chunk.js",
+    "main.js.map": "/Alco_Landing_Page/static/js/main.0efce181.chunk.js.map",
     "runtime-main.js": "/Alco_Landing_Page/static/js/runtime-main.0b9645d8.js",
     "runtime-main.js.map": "/Alco_Landing_Page/static/js/runtime-main.0b9645d8.js.map",
     "static/js/2.7344ce71.chunk.js": "/Alco_Landing_Page/static/js/2.7344ce71.chunk.js",
     "static/js/2.7344ce71.chunk.js.map": "/Alco_Landing_Page/static/js/2.7344ce71.chunk.js.map",
     "index.html": "/Alco_Landing_Page/index.html",
-    "precache-manifest.32df69772a6ae9aaf174e41c9a1cef7e.js": "/Alco_Landing_Page/precache-manifest.32df69772a6ae9aaf174e41c9a1cef7e.js",
+    "precache-manifest.5d4b8680a34140140e8b3fe5b7d6cbf7.js": "/Alco_Landing_Page/precache-manifest.5d4b8680a34140140e8b3fe5b7d6cbf7.js",
     "service-worker.js": "/Alco_Landing_Page/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/Alco_Landing_Page/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.7344ce71.chunk.js.LICENSE.txt": "/Alco_Landing_Page/static/js/2.7344ce71.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0b9645d8.js",
     "static/js/2.7344ce71.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.f89405a2.chunk.js"
+    "static/js/main.0efce181.chunk.js"
   ]
 }

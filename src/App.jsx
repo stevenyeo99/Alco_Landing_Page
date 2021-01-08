@@ -25,11 +25,15 @@ export class App extends Component {
   }
 
   render() {
+    let lang = 'ID';
+    if (this.state.language === 'EN') {
+      lang = 'EN';
+    } 
     return (
       <div>
         <Navigation />
         <Header data={this.state.landingPageData.Header} />
-        <About data={this.state.landingPageData.About} />
+        <About lang={lang} data={this.state.landingPageData.About} />
         <Gallery />
         <Footer />
       </div>

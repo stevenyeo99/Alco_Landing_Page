@@ -35,7 +35,7 @@ export class Navigation extends Component {
               </li>
               <li>
                 <a href="#portfolio" className="page-scroll">
-                  Gallery
+                  Group
                 </a>
               </li>
             </ul>

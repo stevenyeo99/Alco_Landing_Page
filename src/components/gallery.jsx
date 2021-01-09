@@ -6,7 +6,7 @@ export class Gallery extends Component {
       <div id="portfolio" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>OUR GROUP</h2>
+            <h2>{ this.props.data ? this.props.lang === 'EN' ? this.props.data.EN.title : this.props.data.ID.title : 'loading...' }</h2>
 
           </div>
           <div className="row">

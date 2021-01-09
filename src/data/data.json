@@ -141,6 +141,14 @@
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
+    "OurGroup": {
+        "EN": {
+            "title": "Our Group"
+        },
+        "ID": {
+            "title": "Grup Kami"
+        }
+    },
     "Features": {
         "EN": {
             "title": "COMPANY CULTURE",

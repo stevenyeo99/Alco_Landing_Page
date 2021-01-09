@@ -40,7 +40,7 @@ export class App extends Component {
         <Header lang={ lang } data={this.state.landingPageData.Header} />
         <About lang={lang} data={this.state.landingPageData.About} />
         <Features lang={lang} data={this.state.landingPageData.Features}/>
-        <Gallery />
+        <Gallery lang={lang} data={this.state.landingPageData.OurGroup} />
         <Footer />
       </div>
     )

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4326b6703f1146da1e73f2c1a00956d",
+    "revision": "f64a2559cc68fe586dea2a098ae48d08",
     "url": "/Alco_Landing_Page/index.html"
   },
   {
-    "revision": "bc400a88c2a7d98f5e47",
+    "revision": "2855eb755bc4805e82ba",
     "url": "/Alco_Landing_Page/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "c42e28ec4c7da1e18a56",
-    "url": "/Alco_Landing_Page/static/js/2.848d6dd1.chunk.js"
+    "revision": "153b53cd221497c784d6",
+    "url": "/Alco_Landing_Page/static/js/2.3076c62d.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Alco_Landing_Page/static/js/2.848d6dd1.chunk.js.LICENSE.txt"
+    "url": "/Alco_Landing_Page/static/js/2.3076c62d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc400a88c2a7d98f5e47",
-    "url": "/Alco_Landing_Page/static/js/main.4c7f1f66.chunk.js"
+    "revision": "2855eb755bc4805e82ba",
+    "url": "/Alco_Landing_Page/static/js/main.0aa2fa70.chunk.js"
   },
   {
     "revision": "afdd20d62583bf3d44b4",

@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Alco_Landing_Page/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/Alco_Landing_Page/static/js/main.4c7f1f66.chunk.js",
-    "main.js.map": "/Alco_Landing_Page/static/js/main.4c7f1f66.chunk.js.map",
+    "main.js": "/Alco_Landing_Page/static/js/main.0aa2fa70.chunk.js",
+    "main.js.map": "/Alco_Landing_Page/static/js/main.0aa2fa70.chunk.js.map",
     "runtime-main.js": "/Alco_Landing_Page/static/js/runtime-main.0b9645d8.js",
     "runtime-main.js.map": "/Alco_Landing_Page/static/js/runtime-main.0b9645d8.js.map",
-    "static/js/2.848d6dd1.chunk.js": "/Alco_Landing_Page/static/js/2.848d6dd1.chunk.js",
-    "static/js/2.848d6dd1.chunk.js.map": "/Alco_Landing_Page/static/js/2.848d6dd1.chunk.js.map",
+    "static/js/2.3076c62d.chunk.js": "/Alco_Landing_Page/static/js/2.3076c62d.chunk.js",
+    "static/js/2.3076c62d.chunk.js.map": "/Alco_Landing_Page/static/js/2.3076c62d.chunk.js.map",
     "index.html": "/Alco_Landing_Page/index.html",
-    "precache-manifest.094f31e0cea568cac8a03e98f4049e1d.js": "/Alco_Landing_Page/precache-manifest.094f31e0cea568cac8a03e98f4049e1d.js",
+    "precache-manifest.a95d80e4cfe98e409fa439596afd423f.js": "/Alco_Landing_Page/precache-manifest.a95d80e4cfe98e409fa439596afd423f.js",
     "service-worker.js": "/Alco_Landing_Page/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/Alco_Landing_Page/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.848d6dd1.chunk.js.LICENSE.txt": "/Alco_Landing_Page/static/js/2.848d6dd1.chunk.js.LICENSE.txt"
+    "static/js/2.3076c62d.chunk.js.LICENSE.txt": "/Alco_Landing_Page/static/js/2.3076c62d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0b9645d8.js",
-    "static/js/2.848d6dd1.chunk.js",
+    "static/js/2.3076c62d.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.4c7f1f66.chunk.js"
+    "static/js/main.0aa2fa70.chunk.js"
   ]
 }

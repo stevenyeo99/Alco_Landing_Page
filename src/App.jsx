@@ -1,27 +1,32 @@
 import React, { Component } from 'react'
 import Navigation from './components/navigation';
 import Header from './components/header';
-import Features from './components/features';
 import About from './components/about';
-import Services from './components/services';
+import Features from './components/features';
 import Gallery from './components/gallery';
-import Testimonials from './components/testimonials';
-import Team from './components/Team';
 import Footer from './components/footer/footer';
 import JsonData from './data/data.json';
 import { Switch, Route } from 'react-router-dom';
 
 export class App extends Component {
+
   state = {
     landingPageData: {},
     language: 'EN',
   }
+
   getlandingPageData() {
     this.setState({landingPageData : JsonData})
   }
 
   componentDidMount() {
     this.getlandingPageData();
+  }
+
+  onChangeLanguage = (value) => {
+    this.setState({
+      language: value
+    });
   }
 
   render() {
@@ -31,9 +36,10 @@ export class App extends Component {
     } 
     return (
       <div>
-        <Navigation />
-        <Header data={this.state.landingPageData.Header} />
+        <Navigation lang={ lang } onChangeLanguage = {this.onChangeLanguage} data={this.state.landingPageData.Navigation_Main} />
+        <Header lang={ lang } data={this.state.landingPageData.Header} />
         <About lang={lang} data={this.state.landingPageData.About} />
+        <Features lang={lang} data={this.state.landingPageData.Features}/>
         <Gallery />
         <Footer />
       </div>

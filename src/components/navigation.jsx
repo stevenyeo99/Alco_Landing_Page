@@ -1,7 +1,28 @@
 import React, { Component } from "react";
+import SwitchSelector from "react-switch-selector";
 
 export class Navigation extends Component {
   render() {
+    // Switch bar options
+    const options = [
+      {
+        label: "EN",
+        value: "EN",
+        selectedBackgroundColor: "#0000FF",
+        selectedFontColor: "#FFFFFF"
+      },
+      {
+        label: "ID",
+        value: "ID",
+        selectedBackgroundColor: "#ff0000",
+        selectedFontColor: "#FFFFFF"
+      }
+    ];
+
+    const initialSelectedIndex = options.findIndex(({value}) => value === 'ENG');
+
+    const { ABOUT, CULTURE, GROUP } = this.props.data ? this.props.lang === 'EN' ? this.props.data.EN : this.props.data.ID : 'loading...';
+
     return (
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
         <div className="container">
@@ -30,13 +51,40 @@ export class Navigation extends Component {
             <ul className="nav navbar-nav navbar-right">
               <li>
                 <a href="#about" className="page-scroll">
-                  About
+                  { ABOUT }
+                </a>
+              </li>
+              <li>
+                <a href="#features" className="page-scroll">
+                  { CULTURE }
                 </a>
               </li>
               <li>
                 <a href="#portfolio" className="page-scroll">
-                  Group
+                  { GROUP }
                 </a>
+              </li>
+              <li>
+                <a href={"https://web.facebook.com/alco.co.id"} target="_blank">
+                  <i className="fa fa-facebook-square link fa-lg" style={{ marginTop: "4px" }}></i>
+                </a>
+              </li>
+              <li>
+                <a href={"https://www.instagram.com/alcogroup.id/"} target="_blank">
+                  <i className="fa fa-instagram link fa-lg" style={{ marginTop: "4px" }}></i>
+                </a>
+              </li>
+
+              <li>
+                <div className="your-required-wrapper" style={{width: 100, height: 30, marginTop: "28px", marginLeft: "15px"}}>
+                    <SwitchSelector
+                        onChange={this.props.onChangeLanguage}
+                        options={options}
+                        initialSelectedIndex={initialSelectedIndex}
+                        backgroundColor={"#353b48"}
+                        fontColor={"#f5f6fa"}
+                    />
+                </div>
               </li>
             </ul>
           </div>

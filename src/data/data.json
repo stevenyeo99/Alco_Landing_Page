@@ -1,9 +1,29 @@
 {
+    "Navigation_Main": {
+        "EN": {
+            "ABOUT": "About Us",
+            "CULTURE": "Culture",
+            "GROUP": "Group"
+        },
+        "ID": {
+            "ABOUT": "Tentang Kami",
+            "CULTURE": "Budaya",
+            "GROUP": "GRUP"
+        }
+    },
     "Header": {
-        "title": "ALCO GROUP"
+        "EN": {
+            "title": "ALCO GROUP",
+            "view": "View Group"
+        },
+        "ID": {
+            "title": "Grup Alco",
+            "view": "Lihat Grup"   
+        }
     },
     "About": {
         "EN": {
+            "about_title": "About Us",
             "paragraph": "<i>ALCO GROUP is a business group founded on the initiative and big dream of Mr. Budiyanto Alpi. He ran his first business in 2003 under the name CV. Alco Jaya Mandiri, which later changed its form to a legal entity PT Alco Jaya Raya in 2007. Along with the business development and progress of Batam City to become a metropolitan city, Mr. Budiyanto Alpi as the founder and owner expanded his company to various business fields in order to create a business based on creation & innovation .</i>",
             "visi": "Our Vision",
             "visi_text": "<i>Making Alco Known throughout Indonesia</i>",
@@ -16,6 +36,7 @@
             "unity": "As individual, each of us represent one color, as a team we became a rainbow."
         },
         "ID": {
+            "about_title": "Tentang Kami",
             "paragraph": "<b>ALCO GROUP</b> adalah group usaha yang didirikan atas inisiatif dan impian besar bapak Budiyanto Alpi. Beliau menjalankan usaha pertamanya pada tahun 2003 dengan nama CV. Alco Jaya Mandiri yang kemudian berubah bentuk menjadi perusahaan berbadan hukum PT Alco Jaya Raya pada tahun 2007. Seiring perkembangan usaha dan kemajuan Kota Batam menjadi kota metropolitan, bapak Budiyanto Alpi selaku founder dan owner melebarkan kiprahnya ke berbagai bidang usaha demi mewujudkan bisnis berlandaskan creation & innovation.",
             "visi": "Visi Kita",
             "visi_text": "Menjadikan Alco dikenal diseluruh Indonesia",
@@ -120,25 +141,62 @@
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
-    "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    "Features": {
+        "EN": {
+            "title": "COMPANY CULTURE",
+            "listItem": [{
+                "image": "img/alco/integrity.JPG",
+                "title": "Integrity",
+                "text": "To create company integrity, we should be leading our life with honestly, commitment and intelligence."
+            },
+            {
+                "image": "img/alco/empathy.JPG",
+                "title": "Empathy",
+                "text": "People need to help and understand each other to make the company goals can achieve the maximum results, so the benefit will proper to all parties."
+            },
+            {
+                "image": "img/alco/loyalty.JPG",
+                "title": "Loyalty",
+                "text": "Being obedient and loyal are proof of value commitment you made for yourself and others."
+            },
+            {
+                "image": "img/alco/agility.JPG",
+                "title": "Agility",
+                "text": "To achieve our goals in the company, we must be fast, careful and precise under any circumstances."
+            },
+            {
+                "image": "img/alco/unity.JPG",
+                "title": "Unity",
+                "text": "As individual, each of us represent one color, as a team we became a rainbow."
+            }]   
         },
-        {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-        },
-        {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+        "ID": {
+            "title": "Budaya Perusahaan",
+            "listItem": [{
+                "image": "img/alco/integrity.JPG",
+                "title": "Integritas",
+                "text": "Untuk menciptakan perusahaan yang berintegritas, kita harus menjalani hidup dengan kejujuran, komitmen dan kecerdasan."
+            },
+            {
+                "image": "img/alco/empathy.JPG",
+                "title": "Empati",
+                "text": "Kita harus membantu dan memahami satu sama lain untuk membuat perusahaan mencapai hasil yang maksimal, sehingga hasilnya bermanfaat bagi kesejahteraan semua pihak."
+            },
+            {
+                "image": "img/alco/loyalty.JPG",
+                "title": "Loyalitas",
+                "text": "Menjadi patuh dan setia adalah bukti dari nilai komitmen yang kamu buat untuk diri sendiri dan orang lain."
+            },
+            {
+                "image": "img/alco/agility.JPG",
+                "title": "Kelincahan",
+                "text": "Untuk mencapai tujuan di perusahaan, kita harus cepat, cermat dan tepat dalam keadaan apapun."
+            },
+            {
+                "image": "img/alco/unity.JPG",
+                "title": "Kesatuan",
+                "text": "Saat kita sendiri kita hanyalah satu warna, ketika bersama sebagai tim kita bisa menjadi pelangi."
+            }]
         }
-    ]
+    } 
 }

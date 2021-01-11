@@ -4,7 +4,7 @@ export class features extends Component {
   render() {
     const { title, listItem } = this.props.data ? this.props.lang === 'EN' ? this.props.data.EN : this.props.data.ID : 'loading...';
     return (
-      <div id="features" className="text-center">
+      <div id="culture" className="text-center">
         <div className="container">
           <div className="col-md-10 col-md-offset-1 section-title">
             <h2>{ title }</h2>

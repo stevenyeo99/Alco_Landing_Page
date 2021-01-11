@@ -1,18 +1,28 @@
-import React, { Component } from 'react'
-import Navigation from './components/navigation';
-import Header from './components/header';
-import About from './components/about';
-import Features from './components/features';
-import Gallery from './components/gallery';
-import Footer from './components/footer/footer';
-import JsonData from './data/data.json';
+import React from 'react'
 import { Switch, Route } from 'react-router-dom';
 
-export class App extends Component {
+// Pages
+import Main from './pages/main/main.page';
+import AlcoJayaRaya from './pages/company/alco_jaya_raya/AlcoJayaRaya.page';
+import WontechEraGlobalindo from './pages/company/wontech_era_globalindo/WontechEraGlobalindo.page';
+import AlcoDanaMandiri from './pages/company/alco_dana_mandiri/AlcoDanaMandiri.page';
+import AlcoCollection from './pages/company/alco_collection/AlcoCollection.page';
+import AlcoJayaMobilindo from './pages/company/alco_jaya_mobilindo/AlcoJayaMobilindo.page';
+import AlcoDanaSejahtera from './pages/company/alco_dana_sejahtera/AlcoDanaSejahtera.page';
+import AlcoConuts from './pages/company/alco_conuts/AlcoConuts.page';
+import AlcoCoffee from './pages/company/alco_coffee/AlcoCoffee.page';
+import AlcoGlobalTechnology from './pages/company/alco_global_technology/AlcoGlobalTechnology.page';
+import AlcoFarmindoLestari from './pages/company/alco_farmindo_lestari/AlcoFarmindoLestari.page';
+
+// Data Content
+import JsonData from './data/data.json';
+
+export class App extends React.Component {
 
   state = {
     landingPageData: {},
     language: 'EN',
+    // is_visible: false,
   }
 
   getlandingPageData() {
@@ -21,7 +31,31 @@ export class App extends Component {
 
   componentDidMount() {
     this.getlandingPageData();
+
+    // var scrollComponent = this;
+    // document.addEventListener('scroll', function(e) {
+    //   scrollComponent.toggleVisibility();
+    // });
   }
+
+  // toggleVisibility = () => {
+  //   if (window.pageYOffset > 300) {
+  //     this.setState({
+  //       is_visible: true
+  //     });
+  //   } else {
+  //     this.setState({
+  //       is_visible: false
+  //     });
+  //   }
+  // }
+
+  // scrollToTop = () => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: "smooth"
+  //   });
+  // }
 
   onChangeLanguage = (value) => {
     this.setState({
@@ -34,15 +68,21 @@ export class App extends Component {
     if (this.state.language === 'EN') {
       lang = 'EN';
     } 
+    
     return (
-      <div>
-        <Navigation lang={ lang } onChangeLanguage = {this.onChangeLanguage} data={this.state.landingPageData.Navigation_Main} />
-        <Header lang={ lang } data={this.state.landingPageData.Header} />
-        <About lang={lang} data={this.state.landingPageData.About} />
-        <Features lang={lang} data={this.state.landingPageData.Features}/>
-        <Gallery lang={lang} data={this.state.landingPageData.OurGroup} />
-        <Footer />
-      </div>
+      <Switch>
+        <Route exact path="/" render={(props) => <Main lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />
+        <Route path="/AlcoJayaRaya" render={(props) => <AlcoJayaRaya lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />
+        <Route path="/WontechEraGlobalindo" render={(props) => <WontechEraGlobalindo />} />
+        <Route path="/AlcoDanaMandiri" render={(props) => <AlcoDanaMandiri />} />
+        <Route path="/AlcoCollection" render={(props) => <AlcoCollection />} />
+        <Route path="/AlcoJayaMobilindo" render={(props) => <AlcoJayaMobilindo />} />
+        <Route path="/AlcoDanaSejahtera" render={(props) => <AlcoDanaSejahtera />} />
+        <Route path="/AlcoConuts" render={(props) => <AlcoConuts />} />
+        <Route path="/AlcoCoffee" render={(props) => <AlcoCoffee />} />
+        <Route path="/AlcoGlobalTechnology" render={(props) => <AlcoGlobalTechnology />} />
+        <Route path="/AlcoFarmindoLestari" render={(props) => <AlcoFarmindoLestari />} />  
+      </Switch>
     )
   }
 }

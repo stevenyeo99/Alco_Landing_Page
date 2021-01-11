@@ -21,7 +21,8 @@ export class Navigation extends Component {
 
     const initialSelectedIndex = options.findIndex(({value}) => value === 'ENG');
 
-    const { ABOUT, CULTURE, GROUP } = this.props.data ? this.props.lang === 'EN' ? this.props.data.EN : this.props.data.ID : 'loading...';
+    const { title } = this.props.data ? this.props.lang === 'EN' ? this.props.data.EN : this.props.data.ID : 'loading...';
+    const { link } = this.props.data ? this.props.data : 'loading...';
 
     return (
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -40,7 +41,7 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-              <img src="img/alco/Alco Logo - OK-1.jpg" />
+              <img src="img/alco/Alco Logo - OK-1.jpg" alt="alco" />
             </a>{" "}
           </div>
 
@@ -49,28 +50,23 @@ export class Navigation extends Component {
             id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav navbar-right">
+              { title ?
+                title.map((value, index) => {
+                  return (<li>
+                    <a href={link[index]} className='page-scroll'>
+                      { value }
+                    </a>
+                  </li>)
+                }) : '.....'
+              }
+              
               <li>
-                <a href="#about" className="page-scroll">
-                  { ABOUT }
-                </a>
-              </li>
-              <li>
-                <a href="#features" className="page-scroll">
-                  { CULTURE }
-                </a>
-              </li>
-              <li>
-                <a href="#portfolio" className="page-scroll">
-                  { GROUP }
-                </a>
-              </li>
-              <li>
-                <a href={"https://web.facebook.com/alco.co.id"} target="_blank">
+                <a href={"https://web.facebook.com/alco.co.id"} target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-facebook-square link fa-lg" style={{ marginTop: "4px" }}></i>
                 </a>
               </li>
               <li>
-                <a href={"https://www.instagram.com/alcogroup.id/"} target="_blank">
+                <a href={"https://www.instagram.com/alcogroup.id/"} target="_blank" rel="noopener noreferrer">
                   <i className="fa fa-instagram link fa-lg" style={{ marginTop: "4px" }}></i>
                 </a>
               </li>

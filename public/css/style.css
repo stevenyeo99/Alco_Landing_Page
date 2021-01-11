@@ -7,6 +7,12 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+
+/*scroll ankle tag*/
+.rounded {
+	border-radius: border-radius !important;
+}
+
 h2, h3, h4 {
 	font-family: 'Raleway', sans-serif;
 }
@@ -229,18 +235,18 @@ header .intro-text {
 	padding-bottom: 300px;
 	text-align: center;
 }
-/* Features Section */
-#features {
+/* culture Section */
+#culture {
 	padding: 100px 0;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	color: #fff;
 }
 
-#features h2 {
+#culture h2 {
 	color: #FFFFFF;
 }
 
-#features .section-title h2::after {
+#culture .section-title h2::after {
 	position: absolute;
 	content: "";
 	background: rgba(255, 255, 255, .3);
@@ -251,13 +257,13 @@ header .intro-text {
 	left: 50%;
 }
 
-#features h3 {
+#culture h3 {
 	font-weight: 500;
 	padding: 5px 0;
 	color: #fff;
 }
 
-#features img {
+#culture img {
 	font-size: 38px;
 	/* margin-bottom: 20px; */
 	transition: all 0.5s;
@@ -272,7 +278,8 @@ header .intro-text {
 /* About Section */
 #about {
 	padding: 100px 0;
-	background: #f6f6f6;
+	/* background: #f6f6f6; */
+	background: linear-gradient(to right, #e5e5e5 0%, #FFF 100%);
 }
 #about h3 {
 	font-size: 22px;
@@ -293,6 +300,47 @@ header .intro-text {
 	left: 0;
 }
 
+#aboutCompany {
+	padding: 100px 0;
+	/* background: #f6f6f6; */
+	background: linear-gradient(to right, #e5e5e5 0%, #FFF 100%);
+}
+
+#aboutCompany h2 {
+	position: relative;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+#aboutCompany h2::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	left: 50%;
+	margin-left: -30px;
+}
+
+#aboutCompany h3 {
+	position: relative;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+}
+
+#aboutCompany h3::after {
+	position: absolute;
+	content: "";
+	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	left: 50%;
+	margin-left: -30px;
+}
+
 #about .about-text li {
 	margin-bottom: 6px;
 	margin-left: 6px;
@@ -307,6 +355,23 @@ header .intro-text {
 	font-weight: 300;
 	padding-right: 8px;
 }
+
+#aboutCompany .about-text li {
+	margin-bottom: 6px;
+	margin-left: 6px;
+	list-style: none;
+	padding: 0;
+}
+
+#aboutCompany li:before {
+	content: '\f00c';
+	font-family: 'FontAwesome';
+	color: #5ca9fb;
+	font-size: 11px;
+	font-weight: 300;
+	padding-right: 8px;
+}
+
 #about img {
 	width: 520px;
 	margin-top: 10px;
@@ -315,6 +380,11 @@ header .intro-text {
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
 #about p {
+	line-height: 24px;
+	margin: 30px 0;
+}
+
+#aboutCompany p {
 	line-height: 24px;
 	margin: 30px 0;
 }
@@ -362,7 +432,7 @@ header .intro-text {
 	margin-bottom: 40px;
 }
 /* Portfolio Section */
-#portfolio {
+#ourGroup {
 	padding: 100px 0;
 }
 .portfolio-item {
@@ -542,6 +612,22 @@ label {
 	-webkit-box-shadow: transparent;
 	box-shadow: transparent;
 }
+
+.google-maps {
+	position: relative;
+	padding-bottom: 75%;
+	height: 0;
+	overflow: hidden;
+}
+
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
 .form-control::-webkit-input-placeholder {
 color: #777;
 }

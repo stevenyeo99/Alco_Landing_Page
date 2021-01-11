@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Particles from 'react-particles-js';
 import parse from 'html-react-parser';
 
 export class about extends Component {

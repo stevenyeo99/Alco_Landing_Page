@@ -25,7 +25,7 @@ function main() {
 
   // Hide nav on click
   $(document).ready(function(e) { 
-    $(".navbar-nav li a").click(function (event) {
+    $(".navbar-nav li a, div").click(function (event) {
       // check if window is small enough so dropdown is created
       var toggle = $(".navbar-toggle").is(":visible");
       if (toggle) {

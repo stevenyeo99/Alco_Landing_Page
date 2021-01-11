@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export class Gallery extends Component {
   render() {
     return (
-      <div id="portfolio" className="text-center">
+      <div id="ourGroup" className="text-center">
         <div className="container">
           <div className="section-title">
             <h2>{ this.props.data ? this.props.lang === 'EN' ? this.props.data.EN.title : this.props.data.ID.title : 'loading...' }</h2>
@@ -16,7 +16,7 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="#"
+                      href="/AlcoJayaRaya"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >

@@ -1,26 +1,60 @@
 {
     "Navigation_Main": {
         "EN": {
-            "ABOUT": "About Us",
-            "CULTURE": "Culture",
-            "GROUP": "Group"
+            "title": [
+                "About Us", "Culture", "Group"
+            ]
         },
         "ID": {
-            "ABOUT": "Tentang Kami",
-            "CULTURE": "Budaya",
-            "GROUP": "GRUP"
-        }
+             "title": [
+                "Tentang Kami", "Budaya", "GRUP"
+            ]
+        },
+        "link" : [
+            "#about", "#culture", "#ourGroup"
+        ]
     },
-    "Header": {
+    "Navigation_Company": {
         "EN": {
-            "title": "ALCO GROUP",
-            "view": "View Group"
+            "title": [
+                "Group", "About Us", "Contact Us"
+            ]
         },
         "ID": {
-            "title": "Grup Alco",
-            "view": "Lihat Grup"   
-        }
+            "title": [
+                "Grup", "Tentang Kami", "Kontak Kami"
+            ]
+        },
+        "link": [
+            "/#ourGroup", "#aboutCompany", "#contact"
+        ]
     },
+    "Header": [
+        {   
+            "EN": {
+                "title": "ALCO GROUP",
+                "view": "View Group"
+            },
+            "ID": {
+                "title": "Grup Alco",
+                "view": "Lihat Grup"   
+            },
+            "imgUrl": null,
+            "link": "#ourGroup"
+        },
+        {
+            "EN": {
+                "title": "PT. ALCO JAYA RAYA",
+                "view": "Contact Us"
+            },
+            "ID": {
+                "title": "PT. ALCO JAYA RAYA",
+                "view": "Kontak Kami"
+            },
+            "imgUrl": "./img/alco/jaya_raya.jpg",
+            "link": "#contact"
+        }
+    ],
     "About": {
         "EN": {
             "about_title": "About Us",
@@ -38,9 +72,9 @@
         "ID": {
             "about_title": "Tentang Kami",
             "paragraph": "<b>ALCO GROUP</b> adalah group usaha yang didirikan atas inisiatif dan impian besar bapak Budiyanto Alpi. Beliau menjalankan usaha pertamanya pada tahun 2003 dengan nama CV. Alco Jaya Mandiri yang kemudian berubah bentuk menjadi perusahaan berbadan hukum PT Alco Jaya Raya pada tahun 2007. Seiring perkembangan usaha dan kemajuan Kota Batam menjadi kota metropolitan, bapak Budiyanto Alpi selaku founder dan owner melebarkan kiprahnya ke berbagai bidang usaha demi mewujudkan bisnis berlandaskan creation & innovation.",
-            "visi": "Visi Kita",
+            "visi": "Visi Kami",
             "visi_text": "Menjadikan Alco dikenal diseluruh Indonesia",
-            "misi": "Misi Kita",
+            "misi": "Misi Kami",
             "misi_text": "Membangun perusahaan diberbagai bidang usaha dengan memegang prinsip creation dan innovation",
             "integrity": "Untuk menciptakan perusahaan yang berintegritas, kita harus menjalani hidup dengan kejujuran, komitmen dan kecerdasan.",
             "empathy": "Kita harus membantu dan memahami satu sama lain untuk membuat perusahaan mencapai hasil yang maksimal, sehingga hasilnya bermanfaat bagi kesejahteraan semua pihak.",
@@ -206,5 +240,53 @@
                 "text": "Saat kita sendiri kita hanyalah satu warna, ketika bersama sebagai tim kita bisa menjadi pelangi."
             }]
         }
-    } 
+    },
+    "company": [
+        {
+            "EN": {
+                "section": [
+                    "About Us",
+                    "Product",
+                    "Our Location",
+                    "Contact Info"
+                ],
+                "name": "PT ALCO JAYA RAYA",
+                "visi_title": "Our Vision",
+                "visi": "We determine to provide professionally superior quality and innovation products and services to satisfy all our customer’s needs.",
+                "misi_title": "Our Mission",
+                "misi": "Provide a distinct competitive advantage to our client through product sourcing and customization, integrated supply chain functions and solutions.",
+                "about_content": [
+                    "<p>PT Alco Jaya Raya was established in January, 25<sup>th</sup> 2007 that operated as a leading multiindustry provider with and outstanding reputation of service, customizing, to meet or exceed our client’s expectations.</p><p>We have close relationship with the global specialist and manufacturer of its kind, to allowing us to channel the latest technology effisienly & effectively in order to meet specified requirement of all industrial users across the region.</p><p>Our aim is to provide cost efficient construction/procurement on a larger scale, straight from the sources & supply solutions in the most demanding environments where lead times and supply locations are challenging.</p><p>Working as a General Order Supplier, we have commitment, dedication and support of different business professional and organizations of different fields to ensure best quality service and perfect goods required by our customers.</p>",
+                    "<ul className='about-text'><li>Industrial Suppliers</li><li>Abrasive Technology &#40;Klingspor&#41;</li></ul>"
+                ],
+                "map_text": "Baloi Blok II, Jln. Mangga I No. 6A, Kota Batam, Kepulauan Riau - Indonesia 29432",
+                "addr_title": "Address",
+                "phone_title": "Phone",
+                "phone_content": "<p>&#40;62&#41; 778 458415, 456320</p>",
+                "email_content": "sales@alco.co.id"
+            },
+            "ID": {
+                "section": [
+                    "Tentang Kami",
+                    "Produk",
+                    "Lokasi Kami",
+                    "Info Kontak"
+                ],
+                "name": "PT ALCO JAYA RAYA",
+                "visi_title": "Visi Kami",
+                "visi": "Kami bertekad untuk menyediakan produk dan layanan dengan kualitas dan inovasi yang unggul secara profesional untuk memenuhi semua kebutuhan pelanggan kami.",
+                "misi_title": "Misi Kami",
+                "misi": "Memberikan keunggulan yang kompetitif kepada klien kami melalui pencarian sumber dan penyesuaian produk sesuai kebutuh pelanggan, meliputi fungsi dan solusi yang tepat tujuan.",
+                "about_content": [
+                    "<p>PT Alco Jaya Raya didirikan pada tanggal 25 Januari 2007 yang beroperasi sebagai penyedia multi-industri terkemuka dengan reputasi layanan yang luar biasa, sesuai permintaan untuk memenuhi atau melampaui harapan klien kami.</p><p>Kami memiliki hubungan yang erat dengan spesialis manufaktur global, pabrikan atau sejenisnya, yang memungkinkan kami menyalurkan teknologi terbaru secara efisien & efektif demi memenuhi permintaan spesifik dari semua pengguna industri di seluruh negara.</p><p>Tujuan kami adalah untuk menyediakan barang konstruksi/pengadaan barang yang dibutuhkan klien dengan biaya yang efisien dalam skala yang lebih besar langsung dari lokasi sumber barang yang paling sulit sekalipun, baik dari segi lokasi dan waktu pengiriman.</p><p>Sebagai General Order Supplier, kami memiliki komitmen, dedikasi dan dukungan dari berbagai profesional bisnis dan organisasi di berbagai bidang untuk memastikan layanan kami berkualitas terbaik dan sempurna sesuai kebutuhkan pelanggan kami.</p>",
+                    "<ul className='about-text'><li>Pemasok Industri</li><li>Teknologi Abrasive &#40;Klingspor&#41;</li></ul>"
+                ],
+                "map_text": "Baloi Blok II, Jln. Mangga I No. 6A, Kota Batam, Kepulauan Riau - Indonesia 29432",
+                "addr_title": "Address",
+                "phone_title": "Phone",
+                "phone_content": "<p>&#40;62&#41; 778 458415, 456320</p>",
+                "email_content": "sales@alco.co.id"
+            }
+        }
+    ] 
 }

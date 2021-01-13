@@ -53,6 +53,18 @@
             },
             "imgUrl": "./img/alco/jaya_raya.jpg",
             "link": "#contact"
+        },
+        {
+            "EN": {
+                "title": "PT. Wontech Era Globalindo",
+                "view": "Contact Us"
+            },
+            "ID": {
+                "title": "PT. Wontech Era Globalindo",
+                "view": "Kontak Kami"
+            },
+            "imgUrl": "./img/alco/wontech_header.jpg",
+            "link": "#contact"
         }
     ],
     "About": {
@@ -286,7 +298,58 @@
                 "phone_title": "Phone",
                 "phone_content": "<p>&#40;62&#41; 778 458415, 456320</p>",
                 "email_content": "sales@alco.co.id"
-            }
+            },
+            "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0341425123165!2d104.01183161475386!3d1.1359924991713939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d9897925758b7b%3A0xf113c0ea775e5408!2sPT.%20Alco%20Jaya%20Raya!5e0!3m2!1sen!2sid!4v1610375317177!5m2!1sen!2sid",
+            "websiteExist": "false"
+        },
+        {
+            "EN": {
+                "section": [
+                    "About Us",
+                    "Service and Product Description",
+                    "Our Location",
+                    "Contact Info"
+                ],
+                "name": "PT WONGTECH ERA GLOBALINDO",
+                "visi_title": "Our Vision",
+                "visi": "Become a trading company or industrial supplier that is respected and excels in product quality, price and customer service.",
+                "misi_title": "Our Mission",
+                "misi": "Continuously providing quality products and services to meet customer needs and creating a good work environment to support customer satisfaction and mutually beneficial business partners.",
+                "about_content": [
+                    "<p>PT. WongTech Era Globalindo was founded in 2014 in Batam Island, a company which concentrates in supply industrial, marine and offshore goods trading.</p><p>With the support from our majority product agents across the world, we've been appointed by some reputation brands to be the distributor in our region , especially Batam Island to support our main customer base mainly in offshore and industrial companies.</p><p>We continue to strive to be a leading partnership as trusted and global suppliers in Indonesia with an emphasis on sustainable growth and competency development through our goods and services delivered.</p>",
+                    "<p>As a sole agent Batam within Batam Island for sales, service, repair and calibration of following products:</p><ul className='about-text'><li>Gagemaker</li><li>King Portable Brinell & Accessories</li><li>Wilson Hardness & Accessories</li><li>Omega Portable Rockwell & Accessories</li><li>Foundrax Hardness & Accessories</li><li>Muller Gage & Accessories, Klonen Metrology Casting Material</li></ul>"
+                ],
+                "map_text": "Komplek Marina Business Centre, Blok A No. 2A, Kota Batam, Kepulauan Riau - Indonesia 29441",
+                "addr_title": "Address",
+                "phone_title": "Phone",
+                "phone_content": "<p>&#40;62&#41; 778 451098</p>",
+                "email_content": "<ul><li>herisun@wongtecheraglobalindo.com</li><li>sriyani@wongtecheraglobalindo.com</li></ul>"
+            },
+            "ID": {
+                "section": [
+                    "Tentang Kami",
+                    "Layanan dan Deskripsi Produk",
+                    "Lokasi Kami",
+                    "Info Kontak"
+                ],
+                "name": "PT WONGTECH ERA GLOBALINDO",
+                "visi_title": "Visi Kami",
+                "visi": "Menjadi perusahaan perdagangan atau supplier industri yang disegani dan unggul di kualitas produk, harga dan service kepada customer.",
+                "misi_title": "Misi Kami",
+                "misi": "Secara berkesinambungan menyediakan produk dan jasa yang berkualitas untuk memenuhi kebutuhan pelanggan dan menciptakan lingkungan kerja yang baik untuk mendukung kepuasan dan mitra bisnis yang saling menguntungkan pelanggan kami.",
+                "about_content": [
+                    "<p>PT WongTech Era Globalindo didirikan di Pulau Batam pada tahun 2014, merupakan sebuah perusahaan yang bergerak dalam bidang Supplier atau perdagangan barang industri, marine dan offshore</p><p>Dengan dukungan dan kerja sama melalui mayoritas pemegang agensi produk , kami telah ditunjuk dan dipercaya sebagai distributor oleh beberapa merk untuk memberikan dukungan produk dan jasa terkait kepada klien industri dan offshore khususnya di wilayah Batam.</p><p>Kami secara terus menerus berusaha menjadi rekan utama sebagai supplier global yang terpercaya di Indonesia dengan penekanan pada pertumbuhan yang berkelanjutan serta pengembangan kompetensi melalui barang dan jasa yang kami berikan.</p>",
+                    "<p>Sebagai agen tunggal Batam dalam Pulau Batam untuk penjualan, servis, perbaikan dan kalibrasi produk-produk berikut:</p><ul className='about-text'><li>Gagemaker</li><li>King Portable Brinell & Aksesoris</li><li>Wilson Hardness & Aksesoris</li><li>Omega Portable Rockwell & Aksesoris</li><li>Foundrax Hardness & Aksesoris</li><li>Muller Gage & Aksesoris, Klonen Metrology Casting Material</li></ul>"
+                ],
+                "map_text": "Komplek Marina Business Centre, Blok A No. 2A, Kota Batam, Kepulauan Riau - Indonesia 29441",
+                "addr_title": "Address",
+                "phone_title": "Phone",
+                "phone_content": "<p>&#40;62&#41; 778 451098</p>",
+                "email_content": "<ul><li>herisun@wongtecheraglobalindo.com</li><li>sriyani@wongtecheraglobalindo.com</li></ul>"
+            },
+            "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.1540779441516!2d103.95844511457227!3d1.0455152992373553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98d7556550d3d%3A0xe6833f9a922c6633!2sPT.%20WongTech%20Era%20Globalindo%20(Batam)!5e0!3m2!1sen!2sid!4v1610551071941!5m2!1sen!2sid",
+            "websiteExist": "true",
+            "websiteContent": "<a className='btn btn-custom btn-lg' href='https://wongtecheraglobalindo.com/'>wongtecheraglobalindo.com</a>"
         }
     ] 
 }

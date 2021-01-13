@@ -2,7 +2,7 @@ import React from 'react';
 import parse from 'html-react-parser';
 
 const About = ({ lang, indexContent, data }) => {
-    const { section, visi_title, visi, misi_title, misi, about_content } = data ? lang === 'EN' ? data[indexContent].ID : data[indexContent].ID : 'loading...';
+    const { section, visi_title, visi, misi_title, misi, about_content } = data ? lang === 'EN' ? data[indexContent].EN : data[indexContent].ID : 'loading...';
     return (
         <div id="aboutCompany" class="text-center">
             <div class="container">

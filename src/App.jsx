@@ -73,7 +73,7 @@ export class App extends React.Component {
       <Switch>
         <Route exact path="/" render={(props) => <Main lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />
         <Route path="/AlcoJayaRaya" render={(props) => <AlcoJayaRaya lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />
-        <Route path="/WontechEraGlobalindo" render={(props) => <WontechEraGlobalindo />} />
+        <Route path="/WontechEraGlobalindo" render={(props) => <WontechEraGlobalindo lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />
         <Route path="/AlcoDanaMandiri" render={(props) => <AlcoDanaMandiri />} />
         <Route path="/AlcoCollection" render={(props) => <AlcoCollection />} />
         <Route path="/AlcoJayaMobilindo" render={(props) => <AlcoJayaMobilindo />} />

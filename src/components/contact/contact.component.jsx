@@ -3,6 +3,7 @@ import parse from 'html-react-parser';
 
 const Contact = ({ lang, indexContent, data }) => {
     const { section, map_text, addr_title, phone_title, phone_content, email_content } = data ? lang === 'EN' ? data[indexContent].EN : data[indexContent].ID : 'loading...';
+    const { googleMap, websiteExist, websiteContent } = data ? data[indexContent] : '';
     return (
         <div id="contact">
             <div className="container">
@@ -14,7 +15,7 @@ const Contact = ({ lang, indexContent, data }) => {
                             <div className="row">
                                 <div className="col-md-9">
                                     <div className="google-maps">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0341425123165!2d104.01183161475386!3d1.1359924991713939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d9897925758b7b%3A0xf113c0ea775e5408!2sPT.%20Alco%20Jaya%20Raya!5e0!3m2!1sen!2sid!4v1610375317177!5m2!1sen!2sid" width="600" height="450" frameborder="0" style={{border:0}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                        <iframe src={googleMap} width="600" height="450" frameborder="0" style={{border:0}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -41,6 +42,17 @@ const Contact = ({ lang, indexContent, data }) => {
                             { phone_content ? parse(phone_content) : 'loading...' }
                         </p>
                     </div>
+
+                    {
+                        websiteExist === 'true' ? <div className="contact-item">
+                            <p>
+                                <span>
+                                    <i className="fa fa-globe"></i> Website
+                                </span>
+                                { websiteContent ? parse(websiteContent) : 'loading...' }
+                            </p>
+                        </div> : null
+                    }
 
                     <div className="contact-item">
                         <p>

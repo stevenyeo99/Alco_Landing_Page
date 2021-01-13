@@ -574,15 +574,15 @@ header .intro-text {
 	color: #cc0033;
 	text-align: left;
 }
-#contact .btn-custom {
+#contact a {
 	margin: 30px 0;
-	background: transparent;
-	border: 2px solid #fff;
+	color: rgba(255, 255, 255, .75);
+	text-decoration: underline;
 }
-#contact .btn-custom:hover {
-	color: #1f386e;
-	background: #fff;
+#contact a:hover {
+	color: #FFF;
 }
+
 label {
 	font-size: 12px;
 	font-weight: 400;

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 
 export class Gallery extends Component {
   render() {
@@ -16,7 +17,7 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="/AlcoJayaRaya"
+                      href="AlcoJayaRaya"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -37,7 +38,7 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="#"
+                      href="WontechEraGlobalindo"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >

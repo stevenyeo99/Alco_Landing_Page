@@ -65,6 +65,54 @@
             },
             "imgUrl": "./img/alco/wontech_header.jpg",
             "link": "#contact"
+        },
+        {
+            "EN": {
+                "title": "PT. ALCO DANA MANDIRI",
+                "view": "Contact Us"
+            },
+            "ID": {
+                "title": "PT. ALCO DANA MANDIRI",
+                "view": "Kontak Kami"
+            },
+            "imgUrl": "./img/alco/dana_mandiri.jpg",
+            "link": "#contact"
+        },
+        {
+            "EN": {
+                "title": "ALCO COLLECTION",
+                "view": "Contact Us"
+            },
+            "ID": {
+                "title": "ALCO COLLECTION",
+                "view": "Kontak Kami"
+            },
+            "imgUrl": "./img/alco/alco_collection.jpg",
+            "link": "#contact"
+        },
+        {
+            "EN": {
+                "title": "PT. ALCO JAYA MOBILINDO",
+                "view": "Contact Us"
+            },
+            "ID": {
+                "title": "PT. ALCO JAYA MOBILINDO",
+                "view": "Kontak Kami"
+            },
+            "imgUrl": "./img/alco/mobilindo.jpg",
+            "link": "#contact"
+        },
+        {
+            "EN": {
+                "title": "KOPERASI SIMPAN PINJAM ALCO DANA SEJAHTERA",
+                "view": "Contact Us"
+            },
+            "ID": {
+                "title": "KOPERASI SIMPAN PINJAM ALCO DANA SEJAHTERA",
+                "view": "Kontak Kami"
+            },
+            "imgUrl": "./img/alco/dana_sejahtera.jpg",
+            "link": "#contact"
         }
     ],
     "About": {
@@ -75,6 +123,8 @@
             "visi_text": "<i>Making Alco Known throughout Indonesia</i>",
             "misi": "Our Mission",
             "misi_text": "<i>To develop companies in various business fields by holding the principles of creation and innovation</i>",
+            "job_title": "Founder / Chairman Alco Group",
+            "quotes": "Want Success Must to be a Striker",
             "integrity": "To create company integrity, we should be leading our life with honestly, commitment and intelligence.",
             "empathy": "People need to help and understand each other to make the company goals can achieve the maximum results, so the benefit will proper to all parties.",
             "loyalty": "Being obedient and loyal are proof of value commitment you made for yourself and others.",
@@ -88,6 +138,8 @@
             "visi_text": "Menjadikan Alco dikenal diseluruh Indonesia",
             "misi": "Misi Kami",
             "misi_text": "Membangun perusahaan diberbagai bidang usaha dengan memegang prinsip creation dan innovation",
+            "job_title": "Pendiri / Ketua Alco Grup",
+            "quotes": "Mau Sukses Harus Jadi Penyerang",
             "integrity": "Untuk menciptakan perusahaan yang berintegritas, kita harus menjalani hidup dengan kejujuran, komitmen dan kecerdasan.",
             "empathy": "Kita harus membantu dan memahami satu sama lain untuk membuat perusahaan mencapai hasil yang maksimal, sehingga hasilnya bermanfaat bagi kesejahteraan semua pihak.",
             "loyalty": "Menjadi patuh dan setia adalah bukti dari nilai komitmen yang kamu buat untuk diri sendiri dan orang lain.",
@@ -264,9 +316,9 @@
                 ],
                 "name": "PT ALCO JAYA RAYA",
                 "visi_title": "Our Vision",
-                "visi": "We determine to provide professionally superior quality and innovation products and services to satisfy all our customer’s needs.",
+                "visi": "<p>We determine to provide professionally superior quality and innovation products and services to satisfy all our customer’s needs.</p>",
                 "misi_title": "Our Mission",
-                "misi": "Provide a distinct competitive advantage to our client through product sourcing and customization, integrated supply chain functions and solutions.",
+                "misi": "<p>Provide a distinct competitive advantage to our client through product sourcing and customization, integrated supply chain functions and solutions.</p>",
                 "about_content": [
                     "<p>PT Alco Jaya Raya was established in January, 25<sup>th</sup> 2007 that operated as a leading multiindustry provider with and outstanding reputation of service, customizing, to meet or exceed our client’s expectations.</p><p>We have close relationship with the global specialist and manufacturer of its kind, to allowing us to channel the latest technology effisienly & effectively in order to meet specified requirement of all industrial users across the region.</p><p>Our aim is to provide cost efficient construction/procurement on a larger scale, straight from the sources & supply solutions in the most demanding environments where lead times and supply locations are challenging.</p><p>Working as a General Order Supplier, we have commitment, dedication and support of different business professional and organizations of different fields to ensure best quality service and perfect goods required by our customers.</p>",
                     "<ul className='about-text'><li>Industrial Suppliers</li><li>Abrasive Technology &#40;Klingspor&#41;</li></ul>"
@@ -286,21 +338,22 @@
                 ],
                 "name": "PT ALCO JAYA RAYA",
                 "visi_title": "Visi Kami",
-                "visi": "Kami bertekad untuk menyediakan produk dan layanan dengan kualitas dan inovasi yang unggul secara profesional untuk memenuhi semua kebutuhan pelanggan kami.",
+                "visi": "<p>Kami bertekad untuk menyediakan produk dan layanan dengan kualitas dan inovasi yang unggul secara profesional untuk memenuhi semua kebutuhan pelanggan kami.</p>",
                 "misi_title": "Misi Kami",
-                "misi": "Memberikan keunggulan yang kompetitif kepada klien kami melalui pencarian sumber dan penyesuaian produk sesuai kebutuh pelanggan, meliputi fungsi dan solusi yang tepat tujuan.",
+                "misi": "<p>Memberikan keunggulan yang kompetitif kepada klien kami melalui pencarian sumber dan penyesuaian produk sesuai kebutuh pelanggan, meliputi fungsi dan solusi yang tepat tujuan.</p>",
                 "about_content": [
                     "<p>PT Alco Jaya Raya didirikan pada tanggal 25 Januari 2007 yang beroperasi sebagai penyedia multi-industri terkemuka dengan reputasi layanan yang luar biasa, sesuai permintaan untuk memenuhi atau melampaui harapan klien kami.</p><p>Kami memiliki hubungan yang erat dengan spesialis manufaktur global, pabrikan atau sejenisnya, yang memungkinkan kami menyalurkan teknologi terbaru secara efisien & efektif demi memenuhi permintaan spesifik dari semua pengguna industri di seluruh negara.</p><p>Tujuan kami adalah untuk menyediakan barang konstruksi/pengadaan barang yang dibutuhkan klien dengan biaya yang efisien dalam skala yang lebih besar langsung dari lokasi sumber barang yang paling sulit sekalipun, baik dari segi lokasi dan waktu pengiriman.</p><p>Sebagai General Order Supplier, kami memiliki komitmen, dedikasi dan dukungan dari berbagai profesional bisnis dan organisasi di berbagai bidang untuk memastikan layanan kami berkualitas terbaik dan sempurna sesuai kebutuhkan pelanggan kami.</p>",
                     "<ul className='about-text'><li>Pemasok Industri</li><li>Teknologi Abrasive &#40;Klingspor&#41;</li></ul>"
                 ],
                 "map_text": "Baloi Blok II, Jln. Mangga I No. 6A, Kota Batam, Kepulauan Riau - Indonesia 29432",
-                "addr_title": "Address",
-                "phone_title": "Phone",
+                "addr_title": "Alamat",
+                "phone_title": "Telepon",
                 "phone_content": "<p>&#40;62&#41; 778 458415, 456320</p>",
                 "email_content": "sales@alco.co.id"
             },
             "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0341425123165!2d104.01183161475386!3d1.1359924991713939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d9897925758b7b%3A0xf113c0ea775e5408!2sPT.%20Alco%20Jaya%20Raya!5e0!3m2!1sen!2sid!4v1610375317177!5m2!1sen!2sid",
-            "websiteExist": "false"
+            "websiteExist": "false",
+            "addressCombinePhone": "false"
         },
         {
             "EN": {
@@ -312,9 +365,9 @@
                 ],
                 "name": "PT WONGTECH ERA GLOBALINDO",
                 "visi_title": "Our Vision",
-                "visi": "Become a trading company or industrial supplier that is respected and excels in product quality, price and customer service.",
+                "visi": "<p>Become a trading company or industrial supplier that is respected and excels in product quality, price and customer service.</p>",
                 "misi_title": "Our Mission",
-                "misi": "Continuously providing quality products and services to meet customer needs and creating a good work environment to support customer satisfaction and mutually beneficial business partners.",
+                "misi": "<p>Continuously providing quality products and services to meet customer needs and creating a good work environment to support customer satisfaction and mutually beneficial business partners.</p>",
                 "about_content": [
                     "<p>PT. WongTech Era Globalindo was founded in 2014 in Batam Island, a company which concentrates in supply industrial, marine and offshore goods trading.</p><p>With the support from our majority product agents across the world, we've been appointed by some reputation brands to be the distributor in our region , especially Batam Island to support our main customer base mainly in offshore and industrial companies.</p><p>We continue to strive to be a leading partnership as trusted and global suppliers in Indonesia with an emphasis on sustainable growth and competency development through our goods and services delivered.</p>",
                     "<p>As a sole agent Batam within Batam Island for sales, service, repair and calibration of following products:</p><ul className='about-text'><li>Gagemaker</li><li>King Portable Brinell & Accessories</li><li>Wilson Hardness & Accessories</li><li>Omega Portable Rockwell & Accessories</li><li>Foundrax Hardness & Accessories</li><li>Muller Gage & Accessories, Klonen Metrology Casting Material</li></ul>"
@@ -334,22 +387,224 @@
                 ],
                 "name": "PT WONGTECH ERA GLOBALINDO",
                 "visi_title": "Visi Kami",
-                "visi": "Menjadi perusahaan perdagangan atau supplier industri yang disegani dan unggul di kualitas produk, harga dan service kepada customer.",
+                "visi": "<p>Menjadi perusahaan perdagangan atau supplier industri yang disegani dan unggul di kualitas produk, harga dan service kepada customer.</p>",
                 "misi_title": "Misi Kami",
-                "misi": "Secara berkesinambungan menyediakan produk dan jasa yang berkualitas untuk memenuhi kebutuhan pelanggan dan menciptakan lingkungan kerja yang baik untuk mendukung kepuasan dan mitra bisnis yang saling menguntungkan pelanggan kami.",
+                "misi": "<p>Secara berkesinambungan menyediakan produk dan jasa yang berkualitas untuk memenuhi kebutuhan pelanggan dan menciptakan lingkungan kerja yang baik untuk mendukung kepuasan dan mitra bisnis yang saling menguntungkan pelanggan kami.</p>",
                 "about_content": [
                     "<p>PT WongTech Era Globalindo didirikan di Pulau Batam pada tahun 2014, merupakan sebuah perusahaan yang bergerak dalam bidang Supplier atau perdagangan barang industri, marine dan offshore</p><p>Dengan dukungan dan kerja sama melalui mayoritas pemegang agensi produk , kami telah ditunjuk dan dipercaya sebagai distributor oleh beberapa merk untuk memberikan dukungan produk dan jasa terkait kepada klien industri dan offshore khususnya di wilayah Batam.</p><p>Kami secara terus menerus berusaha menjadi rekan utama sebagai supplier global yang terpercaya di Indonesia dengan penekanan pada pertumbuhan yang berkelanjutan serta pengembangan kompetensi melalui barang dan jasa yang kami berikan.</p>",
                     "<p>Sebagai agen tunggal Batam dalam Pulau Batam untuk penjualan, servis, perbaikan dan kalibrasi produk-produk berikut:</p><ul className='about-text'><li>Gagemaker</li><li>King Portable Brinell & Aksesoris</li><li>Wilson Hardness & Aksesoris</li><li>Omega Portable Rockwell & Aksesoris</li><li>Foundrax Hardness & Aksesoris</li><li>Muller Gage & Aksesoris, Klonen Metrology Casting Material</li></ul>"
                 ],
                 "map_text": "Komplek Marina Business Centre, Blok A No. 2A, Kota Batam, Kepulauan Riau - Indonesia 29441",
-                "addr_title": "Address",
-                "phone_title": "Phone",
+                "addr_title": "Alamat",
+                "phone_title": "Telepon",
                 "phone_content": "<p>&#40;62&#41; 778 451098</p>",
                 "email_content": "<ul><li>herisun@wongtecheraglobalindo.com</li><li>sriyani@wongtecheraglobalindo.com</li></ul>"
             },
             "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.1540779441516!2d103.95844511457227!3d1.0455152992373553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98d7556550d3d%3A0xe6833f9a922c6633!2sPT.%20WongTech%20Era%20Globalindo%20(Batam)!5e0!3m2!1sen!2sid!4v1610551071941!5m2!1sen!2sid",
             "websiteExist": "true",
-            "websiteContent": "<a className='btn btn-custom btn-lg' href='https://wongtecheraglobalindo.com/'>wongtecheraglobalindo.com</a>"
+            "websiteContent": "<a className='btn btn-custom btn-lg' href='https://wongtecheraglobalindo.com/'>wongtecheraglobalindo.com</a>",
+            "addressCombinePhone": "false"
+        },
+        {
+            "EN": {
+                "section": [
+                    "About Us",
+                    "Product",
+                    "Our Location",
+                    "Contact Info"
+                ],
+                "name": "PT ALCO DANA MANDIRI",
+                "visi_title": "Our Vision",
+                "visi": "<p>To be the Best National Financing Company</p>",
+                "misi_title": "Our Mission",
+                "misi": "<ul><li>Excellent Service</li><li>Fast and Easy</li><li>Growth and Expand</li><li>Better Life</li></ul>",
+                "about_content": [
+                    "<p>PT Alco Dana Mandiri is a company engaged in the sale and purchase of used motorbikes and financing, which was established on July, 5<sup>th</sup> 2018.</p><p>Always strive to provide the best service to our customers who uphold the values of the Alco culture.</p><p>Buying and selling quality used motorbikes and providing financing or cash loans by adhering to the principles of: Best Service, Light Installments, Fast Process, Easy Requirements, Safe BPKB.</p>",
+                    "<ul><li>Motorcycle BPKB Guarantee Cash Loan</li><li>Used Motorcycle Financing</li><li>Selling / Buying Used Motorbikes</li></ul>"
+                ],
+                "map_text": "Komplek Marina Business Centre, Blok A No. 2A, Kota Batam, Kepulauan Riau - Indonesia 29441",
+                "addr_title": "Address",
+                "phone_title": "Phone",
+                "phone_content": "<p>&#40;62&#41; 778 451098</p>",
+                "email_content": "<ul><li>alcomotor@alco.co.id</li></ul>"
+            },
+            "ID": {
+                "section": [
+                    "Tentang Kami",
+                    "Produk",
+                    "Lokasi Kami",
+                    "Info Kontak"
+                ],
+                "name": "PT ALCO DANA MANDIRI",
+                "visi_title": "Visi Kami",
+                "visi": "<p>Menjadi Perusahaan Pembiayaan Terbaik Nasional</p>",
+                "misi_title": "Misi Kami",
+                "misi": "<ul><li>Pelayanan Terbaik</li><li>Cepat dan Mudah</li><li>Tumbuh dan Berkembang</li><li>Hidup yang Lebih Baik</li></ul>",
+                "about_content": [
+                    "<p>PT Alco Dana Mandiri adalah perusahaan yang bergerak di bidang jual beli motor bekas dan pembiayaan yang didirikan pada tanggal 05 Juli 2018.</p><pSelalu berusaha untuk memberikan pelayanan terbaik kepada pelanggan-pelanggan kami yang dengan menjunjung tinggi nilai-nilai budaya Alco.</p><p>Jual beli motor bekas berkualitas serta memberikan pembiayaan atau pinjaman tunai dengan memegang prinsip : Pelayanan Terbaik, Angsuran Ringan, Proses Cepat, Persyaratan Mudah, BPKB Aman.</p>",
+                    "<ul><li>Pinjaman Tunai Jaminan BPKB Sepeda Motor</li><li>Pembiayaan Sepeda Motor Bekas</li><li>Jual/Beli Sepeda Motor Bekas</li></ul>"
+                ],
+                "map_text": "Komplek Marina Business Centre, Blok A No. 2A, Kota Batam, Kepulauan Riau - Indonesia 29441",
+                "addr_title": "Alamat",
+                "phone_title": "Telepon",
+                "phone_content": "<p>&#40;62&#41; 778 451098</p>",
+                "email_content": "<ul><li>alcomotor@alco.co.id</li></ul>"
+            },
+            "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0341425123165!2d104.01183161475386!3d1.1359924991713939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d9897925758b7b%3A0xf113c0ea775e5408!2sPT.%20Alco%20Jaya%20Raya!5e0!3m2!1sen!2sid!4v1610375317177!5m2!1sen!2sid",
+            "websiteExist": "false",
+            "websiteContent": "",
+            "addressCombinePhone": "true",
+            "addressPhoneContent": "<p>Komplek Bintang Makmur Industri Blok D No. 3A, Kel. Belian, Kec. Batam Kota, Kota Batam, Provinsi Kepulauan Riau - Indonesia 29464 <br/> &#40;62&#41; 813 1688 8686</p><p>Komplek Mega Legenda II Blok C2 No.1, Kel. Baloi Permai, Kec. Batam Kota, Kota Batam,Provinsi Kepulauan Riau - Indonesia 29431<br/>&#40;62&#41; 812 6830 8985</p><p>Ruko Cluster Melati Residence Blok A No. 10, Kel. Tiban Baru, Kec. Sekupang, Kota Batam, Provinsi Kepulauan Riau - Indonesia 29426<br/>&#40;62&#41;  852 6374 8095</p><p>Ruko Citra Fortuna Blok B No. 11, Kel. Kibing, Kec. Batu Aji, Kota Batam, Kota Batam, Provinsi Kepulauan Riau - Indonesia 29422<br/>&#40;62&#41; 822 8805 4200</p><p>Jl. Gatot Subroto KM 5 Bawah Ruko No. 91, Kel. Kp.Bulang, Kec. Tanjungpinang Timur, Kota Tanjungpinang, Provinsi Kepulauan Riau - Indonesia 29122<br/>&#40;62&#41; 822 8889 9797</p><p>Jl. Perikanan No. 80 C, Kel. Kijang Kota, Kec. Bintan Timur, Kota Bintan, Provinsi Kepulauan Riau - Indonesia 29150<br/>&#40;62&#41; 813 7883 5949</p><p>Jl. Indunsuri Ruko Taman Rhaodah No.22, Kel. Tanjung Uban Selatan, Kec. Bintan Utara, Kota Bintan, Prov. Kepulauan Riau - Indonesia 29152<br/>&#40;62&#41; 812 6891 8511</p><p>Jl. Ahmad Yani No. 88, Kel. Sungai Lakam Timur, Kec. Karimun, Kota Karimun, Provinsi Kepulauan Riau - Indonesia 29661<br/>&#40;62&#41; 812 6861 770</p>"
+        },
+        {
+            "EN": {
+                "section": [
+                    "About Us",
+                    "Product",
+                    "Our Location",
+                    "Contact Info"
+                ],
+                "name": "ALCO COLLECTION",
+                "visi_title": "Our Vision",
+                "visi": "<p>&#8220;Being a professional online shop company is our goal, always following the most complete trend of men's & women's fashion at competitive prices.&#8221;</p>",
+                "misi_title": "Our Mission",
+                "misi": "<ul><li>We always prioritize comfort and satisfaction by providing the best service to customers.</li><li>Make it easier for our customers to shop online and market quality products.</li><li>Continue to develop networks throughout Indonesia.</li><ul>",
+                "about_content": [
+                    "<p>ALCO COLLECTION is a subsidiary of ALCO GROUP which was established in 2007. Seeing the large development of the digital world that is increasingly advanced, we are also expanding our business through the digital market.</p><p>To fulfill and become the center of the most complete men's and women's fashion needs, we work with various suppliers to market quality products to consumers and provide opportunities in the digital business. Maintaining the company's reputation by providing the best service and consumer comfort is our priority.</p>",
+                    "<ul className='about-text'><li>Bag</li><li>Shoes/Slippers</li><li>Wallet</li><li>Watches</li><li>Accessories fashion, etc</li></ul>"
+                ],
+                "map_text": "Baloi Blok II, Jln. Mangga I No. 6A, Kota Batam Kepulauan Riau - Indonesia 29432",
+                "addr_title": "Address",
+                "phone_title": "Phone",
+                "phone_content": "<ul><li>Cs 01 wa.me/628117767701</li><li>Cs 02 wa.me/628117767702</li><li>Cs 03 wa.me/628117767703</li><li>Cs 04 wa.me/628117767704</li><li>Cs 05 wa.me/628117767705</li><ul>",
+                "email_content": ""
+            },
+            "ID": {
+                "section": [
+                    "Tentang Kami",
+                    "Produk",
+                    "Lokasi Kami",
+                    "Info Kontak"
+                ],
+                "name": "ALCO COLLECTION",
+                "visi_title": "Visi Kami",
+                "visi": "<p>&#8220;Menjadi perusahaan toko online profesional adalah tujuan kami, senantiasa mengikuti trend masa kini fashion pria & wanita terlengkap dengan harga bersaing.&#8221;</p>",
+                "misi_title": "Misi Kami",
+                "misi": "<ul><li>Kami selalu senantiasa mengutamakan kenyamanan dan juga kepuasan dengan memberikan pelayanan terbaik kepada pelanggan.</li><li>Mempermudah pelanggan kami berbelanja secara online dan memasarkan produk yang berkualitas.</li><li>Terus mengembangkan jaringan hingga ke seluruh wilayah indonesia.</li></ul>",
+                "about_content": [
+                    "<p>ALCO COLLECTION adalah salah satu anak perusahaan ALCO GROUP yang didirikan pada tahun 2013. Melihat besarnya perkembangan dunia digital yang semakin maju, kami juga melebarkan sayap bisnis lewat market digital.</p><p>Untuk memenuhi dan menjadi pusat kebutuhan fashion pria dan wanita terlengkap, kami bekerja sama dengan berbagai supplier untuk memasarkan produk-produk berkualitas ke konsumen beserta memberi peluang kepada reseller-reseller untuk bergabung dalam jual-beli online. Menjaga reputasi perusahaan dengan memberikan pelayanan terbaik dan kenyamanan konsumen adalah prioritas kami</p>",
+                    "<ul className='about-text'><li>Tas</li><li>Sepatu/Sandal</li><li>Dompet</li><li>Jam tangan</li><li>Aksesoris fashion, dll</li></ul>"
+                ],
+                "map_text": "Baloi Blok II, Jln. Mangga I No. 6A, Kota Batam Kepulauan Riau - Indonesia 29432",
+                "addr_title": "Alamat",
+                "phone_title": "Telepon",
+                "phone_content": "<ul><li>Cs 01 wa.me/628117767701</li><li>Cs 02 wa.me/628117767702</li><li>Cs 03 wa.me/628117767703</li><li>Cs 04 wa.me/628117767704</li><li>Cs 05 wa.me/628117767705</li><ul>",
+                "email_content": ""
+            },
+            "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.1540779441516!2d103.95844511457227!3d1.0455152992373553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98d7556550d3d%3A0xe6833f9a922c6633!2sPT.%20WongTech%20Era%20Globalindo%20(Batam)!5e0!3m2!1sen!2sid!4v1610551071941!5m2!1sen!2sid",
+            "websiteExist": "true",
+            "websiteContent": "<a className='btn btn-custom btn-lg' href='https://grosirtas-batam.com/'>grosirtas-batam.com</a>",
+            "addressCombinePhone": "false"
+        },
+        {
+            "EN": {
+                "section": [
+                    "About Us",
+                    "Product",
+                    "Our Location",
+                    "Contact Info"
+                ],
+                "name": "PT ALCO JAYA MOBILINDO",
+                "visi_title": "Our Vision",
+                "visi": "<p>&#8220;To be a provider of quality and legally safe used cars and motorbikes at affordable prices for all people.&#8221;",
+                "misi_title": "Our Mission",
+                "misi": "<ul><li>Committed to creating a comfortable, safe automotive trading experience by providing the best service.</li><li>Providing various variants of secondhand automotive types to support customer satisfaction.</li><ul>",
+                "about_content": [
+                    "<p>Alco Jaya Mobillindo is a subsidiary of the Alco Group which is engaged in buying and selling used cars and motorbikes. The company was establised on Nov, 11<sup>th</sup> 2019. We offer a used motorbike buying and selling experience that is comfortable and in accordance with customer wants and needs.</p><p>All cars and motorbikes offered have gone through a quality control process and are free from legal problems. Guarantee of product quality is the main point in our business, besides that Alco Jaya Mobillindo always ensures that there is a match for the frame number and engine number as stated on the BPKB for the safety of the legal status of the cars and motorbikes we sell.</p><p>In addition, we hope that the Alco Jaya Mobillindo company can make a good contribution to many parties, ranging from employees, sellers, customers and other parties who grow with us.</p>",
+                    "<p>Buying and selling used cars and motorbikes from various brands</p>"
+                ],
+                "map_text": "Bintang Makmur Industri Blok D No. 3A Batam Centre, Kota Batam Kepulauan Riau – Indonesia 29464",
+                "addr_title": "Address",
+                "phone_title": "Phone",
+                "phone_content": "<ul><li>Hendry / Achiang &#40;62&#41; 813 1478 1613</li><li>Deddy &#40;62&#41; 812 7610 1384</li><ul>",
+                "email_content": ""
+            },
+            "ID": {
+                "section": [
+                    "Tentang Kami",
+                    "Produk",
+                    "Lokasi Kami",
+                    "Info Kontak"
+                ],
+                "name": "PT ALCO JAYA MOBILINDO",
+                "visi_title": "Visi Kami",
+                "visi": "<p>&#8220;“Menjadi penyedia pembelian mobil dan motor bekas yang berkualitas dan aman secara hukum dengan harga yang terjangkau bagi semua kalangan.&#8221;</p>",
+                "misi_title": "Misi Kami",
+                "misi": "<ul><li>Berkomitmen untuk menciptakan pengalaman jual-beli otomotif yang nyaman, aman dengan memberikan pelayanan terbaik</li><li>Menyediakan berbagai varian jenis otomotif second untuk menunjang kepuasan customer.</li></ul>",
+                "about_content": [
+                    "<p><b>Alco Jaya Mobilindo</b> merupakan anak perusahaan Alco Group yang bergerak di sektor jual beli mobil dan motor bekas. Perusahaan ini didirikan pada tanggal 29/11/2019. Kami menawarkan pengalaman jual beli mobil-motor bekas yang nyaman dan sesuai dengan keinginan dan kebutuhan pelanggan.</p><p>Seluruh unit mobil dan motor yang ditawarkan telah melalui proses quality control dan bebas dari masalah hukum. Garansi kualitas produk menjadi poin utama dalam bisnis kami, selain itu Alco Jaya Mobillindo selalu memastikan adanya kecocokan nomor rangka maupun nomor mesin seperti yang tertera di BPKB demi keamanan status hukum mobil dan motor yang kami jual.</p><p>Selain itu kami berharap perusahaan Alco Jaya Mobilindo dapat memberi kontribusi yang baik kepada banyak pihak, mulai dari karyawan, penjual, customer dan pihak-pihak lain yang tumbuh bersama kami.</p>",
+                    "<p>Jual Beli Mobil dan Motor Bekas Berbagai Merek</p>"
+                ],
+                "map_text": "Baloi Blok II, Jln. Mangga I No. 6A, Kota Batam Kepulauan Riau - Indonesia 29432",
+                "addr_title": "Alamat",
+                "phone_title": "Telepon",
+                "phone_content": "<ul><li>Hendry / Achiang &#40;62&#41; 813 1478 1613</li><li>Deddy &#40;62&#41; 812 7610 1384</li><ul>",
+                "email_content": ""
+            },
+            "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0671402780076!2d104.06704831511227!3d1.1118338991889933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d989b22296b0a9%3A0xf415ac91d8c1d2ee!2sAlco%20Motor!5e0!3m2!1sen!2sid!4v1610633061112!5m2!1sen!2sid",
+            "websiteExist": "false",
+            "websiteContent": "",
+            "addressCombinePhone": "false"
+        },
+        {
+            "EN": {
+                "section": [
+                    "About Us",
+                    "Product",
+                    "Our Location",
+                    "Contact Info"
+                ],
+                "name": "KOPERASI SIMPAN PINJAM ALCO DANA SEJAHTERA",
+                "visi_title": "Our Vision",
+                "visi": "<p>&#8220;Playing an Active Role in Creating a Prosperous Society&#8221;",
+                "misi_title": "Our Mission",
+                "misi": "<ul><li>Build and develop the potential and economic capacity of the community to improve their economic and social welfare.</li><li>Strengthening the people's economy as the basis for the strength and resilience of the national economy with cooperatives as the backbone</li><li>Playing an active role in enhancing the quality of humans and society.</li><li>To become one of the best and largest cooperatives in Indonesia.</li><ul>",
+                "about_content": [
+                    "<p>Alco Dana Sejahtera Savings and Loans Cooperative is a cooperative that was established March, 04<sup>th</sup> 2019. KSP-ADS is an alternative solution to the needs of non-banking microfinance services for members and prospective members as well as the wider community.</p><p>KSP-ADS carries out its business activities based on the principles of trustworthy, credible and independent cooperative governance so that it has competent competitiveness in responding to the need for non-banking microfinance transaction services.</p><p>KSP-ADS prioritizes the principle of kinship according to the mandate in the constitution of the Republic of Indonesia, namely that the economy is structured as a joint effort based on the principle of kinship. With these principles and principles, KSP-ADS believes that it can provide progress and prosperity for the Indonesian people through continuous improvement and innovation.</p>",
+                    "<ul><li>Dana Sejahtera Time Deposit &#40; SBDS62 &#41;</li><li>Dana Sejahtera Fast Loans</li></ul>"
+                ],
+                "map_text": "Bintang Makmur Industri Blok D No. 3A Batam Centre, Kota Batam Kepulauan Riau – Indonesia 29464",
+                "addr_title": "Address",
+                "phone_title": "Phone",
+                "phone_content": "<ul><li>Miss Siska &#40;62&#41; 811 7011 610</li><ul>",
+                "email_content": ""
+            },
+            "ID": {
+                "section": [
+                    "Tentang Kami",
+                    "Produk",
+                    "Lokasi Kami",
+                    "Info Kontak"
+                ],
+                "name": "KOPERASI SIMPAN PINJAM ALCO DANA SEJAHTERA",
+                "visi_title": "Visi Kami",
+                "visi": "<p>&#8220;Berperan Aktif Menciptakan Masyarakat Sejahtera&#8221;</p>",
+                "misi_title": "Misi Kami",
+                "misi": "<ul><li>Membangun dan mengembangkan potensi dan kemampuan ekonomi masyarakat untuk meningkatkan kesejahteraan ekonomi dan sosialnya.</li><li>Memperkokoh perekonomian rakyat sebagai dasar kekuatan dan ketahanan perekonomian nasional dengan koperasi sebagai sokogurunya</li><li>Berperan secara aktif dalam upaya mempertinggi kualitas manusia dan masyarakat.</li><li>Menjadi salah satu koperasi terbaik dan terbesar di Indonesia.</li></ul>",
+                "about_content": [
+                    "<p>Koperasi Simpan Pinjam Alco Dana Sejahtera adalah koperasi yang didirikan pada bulan 04 Maret 2019. KSP-ADS menjadi alternatif solusi atas kebutuhan layanan keuangan mikro non perbankan bagi para anggota dan calon anggota serta masyarakat luas.</p><p>KSP-ADS menjalankan kegiatan usahanya berdasarkan prinsip-prinsip tata kelola koperasi yang terpercaya, kredibel dan mandiri sehingga memiliki daya saing yang kompeten dalam menjawab kebutuhan akan layanan transaksi keuangan mikro non perbankan.</p><p>KSP-ADS mengutamakan asas kekeluargaan sesuai amanat dalam konstitusi Negara Reprublik Indonesia yakni perekonomian disusun sebagai usaha bersama atas asas kekeluargaan. Dengan prinsip dan asas tersebut KSP-ADS percaya dapat memberikan kemajuan dan kesejahteraan bangsa Indonesia melalui perbaikan dan inovasi yang terus dilakukan.</p>",
+                    "<ul><li>Simpanan Berjangka Dana Sejahtera &#40; SBDS62 &#41;</li><li>Pinjaman Cepat Dana Sejahtera</li></ul>"
+                ],
+                "map_text": "Bintang Makmur Industri Blok D No. 3A Batam Centre, Kota Batam Kepulauan Riau – Indonesia 29464",
+                "addr_title": "Alamat",
+                "phone_title": "Telepon",
+                "phone_content": "<ul><li>Ibu Siska &#40;62&#41; 811 7011 610</li><ul>",
+                "email_content": ""
+            },
+            "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0671402780076!2d104.06704831511227!3d1.1118338991889933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d989b22296b0a9%3A0xf415ac91d8c1d2ee!2sAlco%20Motor!5e0!3m2!1sen!2sid!4v1610633061112!5m2!1sen!2sid",
+            "websiteExist": "false",
+            "websiteContent": "",
+            "addressCombinePhone": "false"
         }
     ] 
 }

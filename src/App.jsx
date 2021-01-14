@@ -74,14 +74,14 @@ export class App extends React.Component {
         <Route exact path="/" render={(props) => <Main lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />
         <Route path="/AlcoJayaRaya" render={(props) => <AlcoJayaRaya lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />
         <Route path="/WontechEraGlobalindo" render={(props) => <WontechEraGlobalindo lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />
-        <Route path="/AlcoDanaMandiri" render={(props) => <AlcoDanaMandiri />} />
-        <Route path="/AlcoCollection" render={(props) => <AlcoCollection />} />
-        <Route path="/AlcoJayaMobilindo" render={(props) => <AlcoJayaMobilindo />} />
-        <Route path="/AlcoDanaSejahtera" render={(props) => <AlcoDanaSejahtera />} />
-        <Route path="/AlcoConuts" render={(props) => <AlcoConuts />} />
-        <Route path="/AlcoCoffee" render={(props) => <AlcoCoffee />} />
-        <Route path="/AlcoGlobalTechnology" render={(props) => <AlcoGlobalTechnology />} />
-        <Route path="/AlcoFarmindoLestari" render={(props) => <AlcoFarmindoLestari />} />  
+        <Route path="/AlcoDanaMandiri" render={(props) => <AlcoDanaMandiri lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />
+        <Route path="/AlcoCollection" render={(props) => <AlcoCollection lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />
+        <Route path="/AlcoJayaMobilindo" render={(props) => <AlcoJayaMobilindo lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />
+        <Route path="/AlcoDanaSejahtera" render={(props) => <AlcoDanaSejahtera lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />
+        <Route path="/AlcoConuts" render={(props) => <AlcoConuts lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />
+        <Route path="/AlcoCoffee" render={(props) => <AlcoCoffee lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />
+        <Route path="/AlcoGlobalTechnology" render={(props) => <AlcoGlobalTechnology lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />
+        <Route path="/AlcoFarmindoLestari" render={(props) => <AlcoFarmindoLestari lang={lang} onChangeLanguage={this.onChangeLanguage} data={this.state.landingPageData} />} />  
       </Switch>
     )
   }

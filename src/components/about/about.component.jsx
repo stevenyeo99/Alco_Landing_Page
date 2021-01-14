@@ -10,9 +10,9 @@ const About = ({ lang, indexContent, data }) => {
                     <h2>{section ? section[0] : 'loading...'}</h2>
                     { about_content ? parse(about_content[0]) : 'loading...'}
                     <h3>{visi_title}</h3>
-                    <p>{visi}</p>
+                    {visi ? parse(visi) : 'loading...'}
                     <h3>{misi_title}</h3>
-                    <p>{misi}</p>
+                    {misi ? parse(misi) : 'loading...'}
                     <h3>{ section ? section[1] : 'loading...' }</h3>
                     { about_content ? parse(about_content[1]) : 'loading...' }
                 </div>

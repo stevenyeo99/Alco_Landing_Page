@@ -3,7 +3,7 @@ import parse from 'html-react-parser';
 
 const Contact = ({ lang, indexContent, data }) => {
     const { section, map_text, addr_title, phone_title, phone_content, email_content } = data ? lang === 'EN' ? data[indexContent].EN : data[indexContent].ID : 'loading...';
-    const { googleMap, websiteExist, websiteContent } = data ? data[indexContent] : '';
+    const { googleMap, websiteExist, websiteContent, addressCombinePhone, addressPhoneContent } = data ? data[indexContent] : '';
     return (
         <div id="contact">
             <div className="container">
@@ -24,24 +24,40 @@ const Contact = ({ lang, indexContent, data }) => {
                 </div>
 
                 <div className="col-md-3 col-md-offset-1 contact-info">
-                    <div className="contact-item">
-                        <h3>{ section ? section[3] : 'loading...'}</h3>
-                        <p>
-                            <span>
-                                <i className="fa fa-map-marker"></i> { addr_title ? addr_title : 'loading...' }
-                            </span>
-                            <p>{ map_text }</p>
-                        </p>
-                    </div>
+                
+                    {
+                        addressCombinePhone === 'false' ? <div className="contact-item">
+                            <h3>{ section ? section[3] : 'loading...'}</h3>
+                            <p>
+                                <span>
+                                    <i className="fa fa-map-marker"></i> { addr_title ? addr_title : 'loading...' }
+                                </span>
+                                <p>{ map_text }</p>
+                            </p>
+                        </div> : null
+                    }
 
-                    <div className="contact-item">
-                        <p>
-                            <span>
-                                <i className="fa fa-phone"></i> { phone_title ? phone_title : 'loading...' }
-                            </span>
-                            { phone_content ? parse(phone_content) : 'loading...' }
-                        </p>
-                    </div>
+                    {
+                        addressCombinePhone === 'false' ? <div className="contact-item">
+                            <p>
+                                <span>
+                                    <i className="fa fa-phone"></i> { phone_title ? phone_title : 'loading...' }
+                                </span>
+                                { phone_content ? parse(phone_content) : 'loading...' }
+                            </p>
+                        </div> : null
+                    }
+                    
+                    {
+                        addressCombinePhone === 'true' ? <div className="contact-item">
+                            <p>
+                                <span>
+                                    <i className="fa fa-book"></i> { addr_title ? addr_title : 'loading...' }/{phone_title ? phone_title : 'loading...'}
+                                </span>
+                                { addressPhoneContent ? parse(addressPhoneContent) : 'loading...' }
+                            </p>
+                        </div> : null
+                    }
 
                     {
                         websiteExist === 'true' ? <div className="contact-item">
@@ -54,14 +70,18 @@ const Contact = ({ lang, indexContent, data }) => {
                         </div> : null
                     }
 
-                    <div className="contact-item">
-                        <p>
-                            <span>
-                                <i className="fa fa-envelope-o"></i> Email
-                            </span>
-                            { email_content ? parse(email_content) : 'loading...' }
-                        </p>
-                    </div>
+                    { 
+                        email_content ?
+                        <div className="contact-item">
+                            <p>
+                                <span>
+                                    <i className="fa fa-envelope-o"></i> Email
+                                </span>
+                                { parse(email_content) } 
+                            </p>
+                        </div>
+                        : null 
+                    }
                 </div>
             </div>
         </div>

@@ -59,7 +59,7 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="#"
+                      href="AlcoDanaMandiri"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -80,7 +80,7 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="#"
+                      href="AlcoCollection"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -101,7 +101,7 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="#"
+                      href="AlcoJayaMobilindo"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -122,7 +122,7 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="#"
+                      href="AlcoDanaSejahtera"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
@@ -148,7 +148,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>ALCO conut's</h4>
+                        <h4>ALCO conut's - (In Progress)</h4>
                       </div>
                       <img
                         src="img/alco/conuts.JPG"
@@ -169,7 +169,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>ALCOfee</h4>
+                        <h4>ALCOfee - (Coming Soon)</h4>
                       </div>
                       <img
                         src="img/alco/Alco Logo - OK-1.jpg"
@@ -190,7 +190,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>PT Alco Global Technology</h4>
+                        <h4>PT Alco Global Technology - (Coming Soon)</h4>
                       </div>
                       <img
                         src="img/alco/Alco Logo - OK-1.jpg"
@@ -211,7 +211,7 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>PT Alco Farmindo Lestari</h4>
+                        <h4>PT Alco Farmindo Lestari - (Coming Soon)</h4>
                       </div>
                       <img
                         src="img/alco/Alco Logo - OK-1.jpg"

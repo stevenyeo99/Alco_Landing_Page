@@ -113,6 +113,18 @@
             },
             "imgUrl": "./img/alco/dana_sejahtera.jpg",
             "link": "#contact"
+        },
+        {
+            "EN": {
+                "title": "ALCO CONUT'S",
+                "view": "Contact Us"
+            },
+            "ID": {
+                "title": "ALCO CONUT'S",
+                "view": "Kontak Kami"
+            },
+            "imgUrl": "./img/alco/alco_conuts.jpg",
+            "link": "#contact"
         }
     ],
     "About": {
@@ -605,6 +617,57 @@
             "websiteExist": "false",
             "websiteContent": "",
             "addressCombinePhone": "false"
+        },
+        {
+            "EN": {
+                "section": [
+                    "About Us",
+                    "Menu",
+                    "Our Location",
+                    "Contact Info"
+                ],
+                "name": "ALCO CONUT'S",
+                "visi_title": "Our Vision",
+                "visi": "<ul><li>The brand &#8220;ALCOconut's Kelapa Bakar Rempah-Rempah&#8221; is known to all levels of society in the Riau Islands.</li><li>ALCOconut's Kelapa Bakar Rempah, culinary healthy drinks are one of the main products for healthy drinking for all levels of society in the Riau Islands.</li></ul>",
+                "misi_title": "Our Mission",
+                "misi": "<ul><li>Educate the benefits of the healthy drink ALCOconut's Coconut Roasted Spices to the wider community.</li><li>Encouraging the Riau islands community to prefer healthy drinks in the form of quality roasted coconut, spices made by ALCOconut's.</li><ul>",
+                "about_content": [
+                    "<p>ALCOconut's Coconut Roasted Spices is one of the unique healthy culinary drinks and has many benefits that the human body needs. Starting from the emergence of a pandemic in early 2019 encouraging ALCO GROUP to innovate by offering beverage products that can maintain body health.</p><p>Alcoconut's believes that everyone in society deserves access to healthy and quality drinks at competitive prices. Alcoconut's is formulated using coconut and a combination of quality spices without using preservatives, because we only offer good quality products in terms of cleanliness, taste and aroma.</p><p>We sincerely hope that the presence of ALCOconut's Coconut Grilled Spices will be useful for health and help the economy of the people in the Riau Islands.</p>",
+                    "<ul><li>All In One / Complete Spices Roasted Coconut</li><li>Honey Grilled Coconut</li><li>Brown Sugar and Ginger Roasted Coconut</li><li>Slim and Beauty Package for Women &#40;without ginger&#41;</li><li>Fitness and Stamina Package for Men &#40;without ginger&#41;</li><li>Pure Roasted Coconut</li><li>Ice Coconut / Ice Coconuts</li><li>Pure Coconut</li><li>Coconut Honey</li><li>Coconut Ice + Lemon + Lime</li><li>Fritter Crispy &&#40;GoCris&#41;</li><li>Crispy Fried Tofu + Topping &#40;Cayenne pepper, Balado, Barbeque, Grilled Corn&#41;</li></ul>"
+                ],
+                "map_text": "Kampung Panglong No. 116 &#40;Depan Bank BRI&#41; RT/RW 001/011, Kelurahan Batu Besar, Kecamatan  Kota Batam Kepulauan Riau - Indonesia",
+                "addr_title": "Address",
+                "phone_title": "Phone",
+                "phone_content": "<ul><li>0812-7831-1449</li><ul>",
+                "email_content": ""
+            },
+            "ID": {
+                "section": [
+                    "Tentang Kami",
+                    "Menu",
+                    "Lokasi Kami",
+                    "Info Kontak"
+                ],
+                "name": "ALCO CONUT'S",
+                "visi_title": "Visi Kami",
+                "visi": "<ul><li>Brand/merek ALCOconut’s Kelapa Bakar Rempah-Rempah dikenal seluruh lapisan masyarakat Kepulauan Riau.</li><li>ALCOconut’s Kelapa Bakar Rempah-Rempah, kuliner minuman sehat menjadi salah satu produk utama minum sehat seluruh lapisan masyarakat Kepulauan Riau.</li></ul>",
+                "misi_title": "Misi Kami",
+                "misi": "<ul><li>Mengedukasi manfaat minuman sehat ALCOconut’s Kelapa Bakar Rempah-Rempah kepada masyarakat luas.</li><li>Mendorong masyarakat Kepulauan Riau untuk lebih memilih minuman sehat berupa kelapa bakar rempah rempah yang berkualitas buatan ALCOconut’s.</li></ul>",
+                "about_content": [
+                    "<p>ALCOconut’s Kelapa Bakar Rempah-Rempah merupakan salah satu kuliner minuman sehat yang unik dan memiliki banyak manfaat yang diperlukan tubuh manusia. Berawal dari munculnya pandemi pada awal tahun 2019 mendorong ALCO GROUP berinovasi dengan menawarkan produk minuman yang dapat memelihara kesehatan tubuh.</p><p>Alcoconut’s percaya bahwa setiap kalangan masyarakat berhak mendapatkan akses minuman sehat dan berkualitas dengan harga bersaing. Alcoconut’s diracik menggunakan kelapa dan gabungan rempah-rempah berkualitas tanpa menggunakan bahan pengawet, karena kami hanya menawarkan produk yang berkualitas baik dari segi kebersihan, rasa dan aroma.</p><p>Kami sangat berharap dengan kehadiran ALCOconut’s Kelapa Bakar Rempah-Rempah dapat berguna bagi kesehatan dan membantu perekonomian masyarakat di Kepulauan Riau.</p>",
+                    "<ul><li>Kelapa Bakar Rempah All In One / Komplit</li><li>Kelapa Bakar Madu</li><li>Kelapa Bakar Gula Merah dan Jahe</li><li>Paket Langsing dan Kecantikan Khusus Wanita &#40;tanpa jahe&#41;</li><li>Paket Kebugaran dan Stamina Khusus Pria &#40;tanpa jahe&#41;</li><li>Kelapa Bakar Murni</li><li>Es Kelapa/ Ice Coconuts</li><li>Kelapa Murni</li><li>Kelapa Madu</li><li>Es Kelapa + Lemon + Jeruk Nipis</li><li>Gorengan Crispy  &#40;GoCris&#41;</li><li>Tahu Goreng Cripsy + Topping &#40;Cabe Rawit, Balado, Barbeque, Jagung bakar&#41;</li></ul>"
+                ],
+                "map_text": "Kampung Panglong No. 116 &#40;Depan Bank BRI&#41; RT/RW 001/011, Kelurahan Batu Besar, Kecamatan  Kota Batam Kepulauan Riau - Indonesia",
+                "addr_title": "Alamat",
+                "phone_title": "Telepon",
+                "phone_content": "<ul><li>0812-7831-1449</li><ul>",
+                "email_content": ""
+            },
+            "googleMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.5065062359456!2d104.12890180800417!3d1.1511961997900801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d987b97ce06d0b%3A0xccad6b1048625206!2sBalai%20Pertemuan%20Kampung%20Panglong!5e0!3m2!1sen!2sid!4v1610727018842!5m2!1sen!2sid",
+            "websiteExist": "false",
+            "websiteContent": "",
+            "addressCombinePhone": "false",
+            "orderOnline": "<p>GO FOOD &#40;ALCOconut’s Kelapa Bakar Rempah-Rempah&#41;</p><p>Grab &#40;ALCOconut’s Kelapa Bakar Rempah-Rempah&#41;</p><p>Maxim &#40;ALCOconut’s Kelapa Bakar Rempah-Rempah&#41;</p>"
         }
     ] 
 }

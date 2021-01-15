@@ -143,12 +143,12 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="#"
+                      href="AlcoConuts"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>ALCO conut's - (In Progress)</h4>
+                        <h4>ALCO conut's</h4>
                       </div>
                       <img
                         src="img/alco/conuts.JPG"

@@ -3,7 +3,7 @@ import parse from 'html-react-parser';
 
 const Contact = ({ lang, indexContent, data }) => {
     const { section, map_text, addr_title, phone_title, phone_content, email_content } = data ? lang === 'EN' ? data[indexContent].EN : data[indexContent].ID : 'loading...';
-    const { googleMap, websiteExist, websiteContent, addressCombinePhone, addressPhoneContent } = data ? data[indexContent] : '';
+    const { googleMap, websiteExist, websiteContent, addressCombinePhone, addressPhoneContent, orderOnline } = data ? data[indexContent] : '';
     return (
         <div id="contact">
             <div className="container">
@@ -32,10 +32,23 @@ const Contact = ({ lang, indexContent, data }) => {
                                 <span>
                                     <i className="fa fa-map-marker"></i> { addr_title ? addr_title : 'loading...' }
                                 </span>
-                                <p>{ map_text }</p>
+                                <p>{ map_text ? parse(map_text) : 'loading...' }</p>
                             </p>
                         </div> : null
                     }
+
+                    { orderOnline ?
+                        <div className="contact-item">
+                            <p>
+                                <span>
+                                    <i className="fa fa-shopping-cart"></i> { phone_title ? phone_title : 'loading...' }
+                                </span>
+                                { orderOnline ? parse(orderOnline) : 'loading...' }
+                            </p>
+                        </div>
+                        : null
+                    }
+                    
 
                     {
                         addressCombinePhone === 'false' ? <div className="contact-item">

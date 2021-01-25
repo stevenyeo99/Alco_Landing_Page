@@ -29,6 +29,7 @@ export class Gallery extends Component {
                         className="img-responsive company-img"
                         alt="Project Title"
                       />{" "}
+                      <span>PT ALCO JAYA RAYA</span>
                     </a>{" "}
                   </div>
                 </div>
@@ -50,6 +51,7 @@ export class Gallery extends Component {
                         className="img-responsive company-img"
                         alt="Project Title"
                       />{" "}
+                      <span>PT WONGTECH ERA GLOBALINDO</span>
                     </a>{" "}
                   </div>
                 </div>
@@ -71,6 +73,7 @@ export class Gallery extends Component {
                         className="img-responsive company-img"
                         alt="Project Title"
                       />{" "}
+                      <span>PT ALCO DANA MANDIRI</span>
                     </a>{" "}
                   </div>
                 </div>
@@ -92,6 +95,7 @@ export class Gallery extends Component {
                         className="img-responsive company-img"
                         alt="Project Title"
                       />{" "}
+                      <span>ALCO COLLECTION</span>
                     </a>{" "}
                   </div>
                 </div>
@@ -113,6 +117,7 @@ export class Gallery extends Component {
                         className="img-responsive company-img"
                         alt="Project Title"
                       />{" "}
+                      <span>PT ALCO JAYA MOBILINDO</span>
                     </a>{" "}
                   </div>
                 </div>
@@ -134,6 +139,7 @@ export class Gallery extends Component {
                         className="img-responsive company-img"
                         alt="Project Title"
                       />{" "}
+                      <span>KOPERASI SIMPAN PINJAM ALCO DANA SEJAHTERA</span>
                     </a>{" "}
                   </div>
                 </div>
@@ -155,6 +161,7 @@ export class Gallery extends Component {
                         className="img-responsive company-img"
                         alt="Project Title"
                       />{" "}
+                      <span>ALCO conut's</span>
                     </a>{" "}
                   </div>
                 </div>
@@ -176,6 +183,7 @@ export class Gallery extends Component {
                         className="img-responsive company-img"
                         alt="Project Title"
                       />{" "}
+                      <span>ALCOfee - (Coming Soon)</span>
                     </a>{" "}
                   </div>
                 </div>
@@ -197,6 +205,7 @@ export class Gallery extends Component {
                         className="img-responsive company-img"
                         alt="Project Title"
                       />{" "}
+                      <span>PT Alco Global Technology - (Coming Soon)</span>
                     </a>{" "}
                   </div>
                 </div>
@@ -218,6 +227,7 @@ export class Gallery extends Component {
                         className="img-responsive company-img"
                         alt="Project Title"
                       />{" "}
+                      <span>PT Alco Farmindo Lestari - (Coming Soon)</span>
                     </a>{" "}
                   </div>
                 </div>

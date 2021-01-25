@@ -7,7 +7,7 @@ export class Header extends Component {
     let { imgUrl, link } = this.props.data ? this.props.lang === 'EN' ? this.props.data[index] : this.props.data[index] : 'loading...';
 
     if (index === 0 || imgUrl === null) {
-      imgUrl = (new Date()).getHours() >= 8 && (new Date()).getHours() < 18 ? 'img/alco/101220_1x1M.jpg' : 'img/alco/101220_1x1M_malam.jpg';
+      imgUrl = 'img/alco/101220_1x1M.jpg';
     }
 
     return (
@@ -17,11 +17,6 @@ export class Header extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-md-8 col-md-offset-2 intro-text">
-                  <h1>
-                    { title }
-                    <span></span>
-                  </h1>
-                  <br/>
                   <a
                     href={link}
                     className="btn btn-custom btn-lg page-scroll"

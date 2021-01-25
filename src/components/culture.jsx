@@ -12,11 +12,19 @@ export class features extends Component {
           <div className="row">
             {this.props.data
               ? listItem.map((d,i) => (
-                  <div  key={`${d.title}-${i}`} className="col-xs-6 col-md-6">
-                    {" "}
-                    <img src={d.image} alt={d.title}/>
-                    <h3>{d.title}</h3>
-                    <p>{d.text}</p>
+                  <div  key={`${d.title}-${i}`} className="col-xs-12 col-md-12">
+                    <div className="row" style={{marginBottom: '15px'}}>
+                      <div className="col-xs-12 col-md-3">
+                        {""}
+                        <img src={d.image} alt={d.title}/>
+                      </div>
+
+                      <div className="col-xs-12 col-md-9" style={{textAlign: 'left'}}>
+                        {""}
+                        <h3>{d.title}</h3>
+                        <p>{d.text}</p>
+                      </div>  
+                    </div>      
                   </div>
                 ))
               : "Loading..."}

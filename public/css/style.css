@@ -14,7 +14,9 @@ body, html {
 }
 
 h2, h3, h4 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Times New Roman',
+	Times,
+	serif;
 }
 h2 {
 	text-transform: uppercase;
@@ -81,7 +83,9 @@ hr {
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
 #menu a.navbar-brand {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Times New Roman',
+	Times,
+	serif;
 	font-size: 24px;
 	font-weight: 700;
 	color: #333;
@@ -95,7 +99,9 @@ hr {
 	display: inline-block;
 }
 #menu.navbar-default .navbar-nav > li > a {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Times New Roman',
+	Times,
+	serif;
 	text-transform: uppercase;
 	color: #555;
 	font-size: 15px;
@@ -165,7 +171,9 @@ hr {
 	font-size: 18px;
 }
 .btn-custom {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Times New Roman',
+	Times,
+	serif;
 	text-transform: uppercase;
 	color: #fff;
 	background-color: #5ca9fb;
@@ -211,7 +219,9 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background: rgba(0,0,0,0.2);
 }
 .intro h1 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Times New Roman',
+	Times,
+	serif;
 	color: #fff;
 	font-size: 62px;
 	font-weight: 700;
@@ -601,7 +611,9 @@ header .intro-text {
 label {
 	font-size: 12px;
 	font-weight: 400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Times New Roman',
+	Times,
+	serif;
 	float: left;
 }
 #contact .form-control {

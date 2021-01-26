@@ -21,7 +21,7 @@ export class App extends React.Component {
 
   state = {
     landingPageData: {},
-    language: 'EN',
+    language: sessionStorage.getItem('language') ? sessionStorage.getItem('language') : 'EN',
     // is_visible: false,
   }
 
@@ -58,13 +58,14 @@ export class App extends React.Component {
   // }
 
   onChangeLanguage = (value) => {
+    sessionStorage.setItem('language', value);
     this.setState({
       language: value
     });
   }
 
   render() {
-    let lang = 'ID';
+    let lang = sessionStorage.getItem('language');
     if (this.state.language === 'EN') {
       lang = 'EN';
     } 

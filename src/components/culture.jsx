@@ -14,7 +14,7 @@ export class features extends Component {
               ? listItem.map((d,i) => (
                   <div  key={`${d.title}-${i}`} className="col-xs-12 col-md-12">
                     <div className="row" style={{marginBottom: '15px'}}>
-                      <div className="col-xs-12 col-md-3">
+                      <div className="col-xs-12 col-md-2 col-md-offset-1 col-lg-2 col-lg-offset-1">
                         {""}
                         <img src={d.image} alt={d.title}/>
                       </div>

@@ -19,7 +19,7 @@ export class Navigation extends Component {
       }
     ];
 
-    const initialSelectedIndex = options.findIndex(({value}) => value === 'ENG');
+    const initialSelectedIndex = options.findIndex(({value}) => value === this.props.lang);
 
     const { title } = this.props.data ? this.props.lang === 'EN' ? this.props.data.EN : this.props.data.ID : 'loading...';
     const { link } = this.props.data ? this.props.data : 'loading...';
@@ -61,13 +61,13 @@ export class Navigation extends Component {
               }
               
               <li>
-                <a href={"https://web.facebook.com/alco.co.id"} target="_blank" rel="noopener noreferrer">
-                  <i className="fa fa-facebook-square link fa-lg" style={{ marginTop: "4px" }}></i>
+                <a href={"https://web.facebook.com/alco.co.id"} target="_blank" rel="noopener noreferrer" style={{margin: '20px 20px 0 20px'}}>
+                  <img src="img/alco/facebook.png" alt="fb" style={{maxWidth: '26px'}} />
                 </a>
               </li>
               <li>
-                <a href={"https://www.instagram.com/alcogroup.id/"} target="_blank" rel="noopener noreferrer">
-                  <i className="fa fa-instagram link fa-lg" style={{ marginTop: "4px" }}></i>
+                <a href={"https://www.instagram.com/alcogroup.id/"} target="_blank" rel="noopener noreferrer" style={{margin: '20px 20px 0 20px'}}>
+                  <img src="img/alco/instagram.png" alt="ig" style={{maxWidth: '26px'}} />
                 </a>
               </li>
 

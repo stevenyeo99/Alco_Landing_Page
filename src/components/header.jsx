@@ -12,7 +12,7 @@ export class Header extends Component {
 
     return (
       <header id="header">
-        <div className="intro" style={{backgroundImage: `url(${imgUrl})`, backgroundSize: '100% 100%', backgroundRepeat: 'no-repeat'}}>
+        <div className="intro" id="landingPageImage" style={{backgroundImage: `url(${imgUrl})`, backgroundSize: '100% 100%', backgroundRepeat: 'no-repeat'}}>
           <div className="overlay">
             <div className="container">
               <div className="row">
